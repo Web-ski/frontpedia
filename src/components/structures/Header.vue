@@ -1,5 +1,6 @@
 <template>
   <div id="header">
+    <div class="brand">{f}</div>
     <nav>
       <router-link class="nav-link" to="/"> home</router-link>
       <router-link class="nav-link" to="/about">about</router-link>
@@ -15,10 +16,10 @@ export default {
 
 <style>
 #header {
-  min-width: 100%;
+  padding: 0 20px;
   height: 60px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
