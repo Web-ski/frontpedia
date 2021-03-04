@@ -1,6 +1,6 @@
 <template>
   <div id="header">
-    <div class="brand">f:a</div>
+    <div class="brand">frontped:a</div>
     <nav>
       <router-link class="nav-link" to="/"> home</router-link>
       <router-link class="nav-link" to="/about">about</router-link>
@@ -33,11 +33,21 @@ export default {
   display: inline-block;
   text-decoration: none;
   color: rgb(26, 59, 167);
-  margin: 10px;
+  padding: 8px 10px;
+  border: solid 1px transparent;
+}
+
+.nav-link:hover {
+  border: solid 1px rgb(26, 59, 167);
+}
+
+.router-link-exact-active {
+  border: solid 1px rgb(26, 59, 167);
 }
 
 .brand {
   padding: 8px;
-  border: solid 1px rgb(26, 59, 167);
+  color: rgb(26, 59, 167);
+  font-family: Comfortaa, sans-serif;
 }
 </style>

@@ -2,7 +2,9 @@
   <main id="home">
     <PageTitle title="frontped:a" />
     <Search />
-    <Card />
+    <section class="card-container">
+      <Card />
+    </section>
   </main>
 </template>
 

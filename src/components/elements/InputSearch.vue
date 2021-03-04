@@ -14,7 +14,7 @@ export default {
   line-height: 22px;
   padding: 5px 10px;
   border: solid 1px rgb(26, 59, 167);
-  background-color: transparent;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 @media screen and (min-width: 670px) {

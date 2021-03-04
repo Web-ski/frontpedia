@@ -22,9 +22,11 @@ body {
 }
 #app {
   background-color: #f6f2e8;
+  background-image: linear-gradient(to bottom right, #07d9dc, #2c73d4);
   min-width: 100vw;
   min-height: 100vh;
   color: rgb(26, 59, 167);
+  color: white;
   font-family: Lato, sans-serif;
 }
 </style>
