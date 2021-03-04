@@ -1,6 +1,6 @@
 <template>
   <div id="header">
-    <div class="brand">{f}</div>
+    <div class="brand">f:a</div>
     <nav>
       <router-link class="nav-link" to="/"> home</router-link>
       <router-link class="nav-link" to="/about">about</router-link>
@@ -32,7 +32,12 @@ export default {
 .nav-link {
   display: inline-block;
   text-decoration: none;
-  color: mediumblue;
+  color: rgb(26, 59, 167);
   margin: 10px;
+}
+
+.brand {
+  padding: 8px;
+  border: solid 1px rgb(26, 59, 167);
 }
 </style>

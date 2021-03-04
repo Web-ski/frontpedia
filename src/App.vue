@@ -16,7 +16,7 @@ export default {
 </script>
 
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Lato:wght@300;400;700;900&display=swap");
 body {
   margin: 0;
 }
@@ -24,7 +24,7 @@ body {
   background-color: #f6f2e8;
   min-width: 100vw;
   min-height: 100vh;
-  color: mediumblue;
+  color: rgb(26, 59, 167);
   font-family: Lato, sans-serif;
 }
 </style>

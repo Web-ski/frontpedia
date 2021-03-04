@@ -13,6 +13,7 @@ export default {
 
 <style>
 .page-title {
+  font-family: Comfortaa, sans-serif;
   font-size: 30px;
   font-weight: 700;
   display: inline-block;
