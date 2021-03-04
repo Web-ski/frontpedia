@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "title": "Bootstrap",
+    "image": "Bootstrap.png",
+    "body": [
+      {
+        "text": "Popularna biblioteka zawierająca narzędzia do stylowania stron i aplikacji. "
+      },
+      {
+        "link": "https://getbootstrap.com/"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "git",
+    "image": "git.png",
+    "body": [
+      {
+        "text": "Git to darmowy, rozproszony system kontroli wersji o otwartym kodzie źródłowym, zaprojektowany do obsługi projektów."
+      },
+      {
+        "link": "https://git-scm.com/"
+      }
+    ]
+  }
+]
