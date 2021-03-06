@@ -1,29 +1,37 @@
 <template>
   <div class="search">
     <InputSearch />
-    <ButtonSearch />
+    <ImgSearch />
   </div>
 </template>
 
 <script>
 import InputSearch from "../elements/InputSearch";
-import ButtonSearch from "../elements/ButtonSearch";
+import ImgSearch from "../elements/ImgSearch";
+
 export default {
   name: "Search",
   components: {
     InputSearch,
-    ButtonSearch,
+    ImgSearch,
   },
 };
 </script>
 
 <style>
 .search {
+  position: relative;
   height: 46px;
-  padding: 8px;
+  padding: 15px 18px;
   display: flex;
   justify-content: center;
-  align-items: stretch;
+  align-items: center;
   margin: 10px;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.25);
+  border-radius: 12px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border: 2px solid rgba(255, 255, 255, 0.18);
 }
 </style>

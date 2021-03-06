@@ -33,10 +33,12 @@ export default {
   min-height: 100px;
   min-width: 250px;
   margin: 40px auto;
-  background-color: #fefefc;
-  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
-  border-radius: 3px;
-  border: solid 1px rgba(0, 0, 0, 0.1);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.25);
+  border-radius: 5px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .card-header,
