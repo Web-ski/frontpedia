@@ -5,7 +5,7 @@
     "image": "Bootstrap.png",
     "body": [
       {
-        "text": "Popularna biblioteka zawierająca narzędzia do stylowania stron i aplikacji. "
+        "text": "Bootstrap to popularna biblioteka zawierająca narzędzia do stylowania stron i aplikacji. "
       },
       {
         "link": "https://getbootstrap.com/"
@@ -14,7 +14,7 @@
   },
   {
     "id": 2,
-    "title": "git",
+    "title": "Git",
     "image": "git.png",
     "body": [
       {
@@ -22,6 +22,32 @@
       },
       {
         "link": "https://git-scm.com/"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "GitHub",
+    "image": "github-black.png",
+    "body": [
+      {
+        "text": "GitHub to platforma do zdalnego zarządania projektami."
+      },
+      {
+        "link": "https://github.com/"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "GitLab",
+    "image": "gitlab.png",
+    "body": [
+      {
+        "text": "GitLab to platforma do zdalnego zarządania projektami."
+      },
+      {
+        "link": "https://gitlab.com/"
       }
     ]
   }
