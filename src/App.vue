@@ -13,7 +13,7 @@ export default {
     Header,
   },
   created() {
-    this.$store.dispatch("getAllPosts", "./content.json");
+    this.$store.dispatch("getAllPosts", "./mockupContent.json");
   },
 };
 </script>

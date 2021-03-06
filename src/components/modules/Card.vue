@@ -1,15 +1,14 @@
 <template>
   <article class="card">
     <div class="card-header">
-      <h3 class="card-title">Bootstrap</h3>
+      <h3 class="card-title">{{ title }}</h3>
       <img class="card-image" :src="image" />
     </div>
-    <div class="card-body">
-      <p class="card-text">
-        Popularna biblioteka zawierająca narzędzia do stylowania stron i
-        aplikacji.
-      </p>
-    </div>
+    <ul class="card-body">
+      <li class="card-text" v-for="item in body" :key="item.toString()">
+        {{ item === text && text }}
+      </li>
+    </ul>
     <div class="card-footer">
       <router-link class="card-link" to="/about">więcej</router-link>
     </div>
@@ -19,10 +18,10 @@
 <script>
 export default {
   name: "Card",
-  data() {
-    return {
-      image: "hej",
-    };
+  props: {
+    title: String,
+    image: String,
+    body: Array,
   },
 };
 </script>

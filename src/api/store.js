@@ -7,15 +7,29 @@ Vue.use(Vuex);
 const store = new Vuex.Store({
   state: {
     isLoading: false,
-    allData: [],
+    allRecords: [],
+    search: "",
   },
-  getters: {},
+  getters: {
+    getRecords({ allRecords, search }) {
+      if (search.length > 1) {
+        return allRecords.filter(
+          (item) =>
+            item.title.includes(search) ||
+            item.title.toLowerCase().includes(search)
+        );
+      }
+    },
+    getRecordsNumber({ allRecords }) {
+      return allRecords.length;
+    },
+  },
   mutations: {
     LOADING_STATUS(state, newLoadingStatus) {
       state.isLoading = newLoadingStatus;
     },
     SET_ALL_DATA(state, data) {
-      state.allData = data;
+      state.allRecords = data;
       console.log(data);
     },
   },

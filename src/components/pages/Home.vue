@@ -3,7 +3,12 @@
     <PageTitle title="frontped:a" />
     <Search />
     <section class="card-container">
-      <Card />
+      <template v-if="records">
+        <Card />
+      </template>
+      <template v-else>
+        <StartInfo />
+      </template>
     </section>
   </main>
 </template>
@@ -12,6 +17,8 @@
 import PageTitle from "../elements/PageTitle";
 import Search from "../modules/Search";
 import Card from "../modules/Card";
+import StartInfo from "../modules/StartInfo";
+import store from "../../api/store";
 
 export default {
   name: "Home",
@@ -19,6 +26,13 @@ export default {
     PageTitle,
     Search,
     Card,
+    StartInfo,
+  },
+  computed: {
+    records: () => {
+      console.log(store.getters.getRecords);
+      return store.getters.getRecords;
+    },
   },
 };
 </script>
