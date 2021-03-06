@@ -15,6 +15,6 @@ export default {
   width: 40px;
   right: 25px;
   top: 20px;
-  opacity: 0.5;
+  opacity: 0.2;
 }
 </style>

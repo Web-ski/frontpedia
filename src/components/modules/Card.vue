@@ -5,8 +5,9 @@
       <img class="card-image" :src="image" />
     </div>
     <ul class="card-body">
-      <li class="card-text" v-for="item in body" :key="item.toString()">
-        {{ item === text && text }}
+      <li class="card-text" v-for="item in body" :key="item.text">
+        {{ item.text }}
+        {{ item.link }}
       </li>
     </ul>
     <div class="card-footer">

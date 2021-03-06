@@ -30,7 +30,9 @@ const store = new Vuex.Store({
     },
     SET_ALL_DATA(state, data) {
       state.allRecords = data;
-      console.log(data);
+    },
+    SET_SEARCH(state, value) {
+      state.search = value;
     },
   },
   actions: {
@@ -45,6 +47,9 @@ const store = new Vuex.Store({
           commit("LOADING_STATUS", false);
         })
         .catch((error) => console.log(error)); // REGARD TO FEEDBACK: add handle error
+    },
+    setSearch({ commit }, payload) {
+      commit("SET_SEARCH", payload);
     },
   },
   modules: {},
