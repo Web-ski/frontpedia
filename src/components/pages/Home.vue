@@ -9,7 +9,7 @@
           :key="record.title"
           :title="record.title"
           :image="record.image"
-          :body="record.body"
+          :intro="record.intro"
           :link="record.link"
         />
       </template>

@@ -145,7 +145,7 @@ body {
       transparent 5%,
       transparent 100%
     ),
-    linear-gradient(157deg, rgb(76, 234, 243), rgb(92, 31, 127));
+    linear-gradient(157deg, rgb(76, 234, 243), rgb(31, 56, 127));
   min-height: 100vh;
   color: rgb(26, 59, 167);
   color: white;

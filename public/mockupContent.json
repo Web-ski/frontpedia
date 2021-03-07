@@ -3,6 +3,7 @@
     "id": 1,
     "title": "Bootstrap",
     "image": "Bootstrap.png",
+    "intro": "Bootstrap to popularna biblioteka zawierająca narzędzia do stylowania stron i aplikacji. ",
     "body": [
       {
         "text": "Bootstrap to popularna biblioteka zawierająca narzędzia do stylowania stron i aplikacji. "
@@ -16,6 +17,7 @@
     "id": 2,
     "title": "Git",
     "image": "git.png",
+    "intro": "Git to darmowy, rozproszony system kontroli wersji o otwartym kodzie źródłowym, zaprojektowany do obsługi projektów.",
     "body": [
       {
         "text": "Git to darmowy, rozproszony system kontroli wersji o otwartym kodzie źródłowym, zaprojektowany do obsługi projektów."
@@ -29,6 +31,7 @@
     "id": 3,
     "title": "GitHub",
     "image": "github-black.png",
+    "intro": "GitHub to platforma do zdalnego zarządania projektami.",
     "body": [
       {
         "text": "GitHub to platforma do zdalnego zarządania projektami."
@@ -42,6 +45,7 @@
     "id": 4,
     "title": "GitLab",
     "image": "gitlab.png",
+    "intro": "GitLab to platforma do zdalnego zarządania projektami.",
     "body": [
       {
         "text": "GitLab to platforma do zdalnego zarządania projektami."

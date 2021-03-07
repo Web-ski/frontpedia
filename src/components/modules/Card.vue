@@ -5,8 +5,8 @@
       <img class="card-image" :src="url + image" />
     </div>
     <div class="card-body">
-      <p class="card-text" v-for="item in body" :key="item.text">
-        {{ item.text }}
+      <p class="card-text">
+        {{ intro }}
       </p>
     </div>
     <div class="card-footer">
@@ -30,7 +30,7 @@ export default {
   props: {
     title: String,
     image: String,
-    body: Array,
+    intro: String,
   },
 };
 </script>
