@@ -6,10 +6,11 @@
     "intro": "Bootstrap to popularna biblioteka zawierająca narzędzia do stylowania stron i aplikacji. ",
     "body": [
       {
-        "text": "Bootstrap to popularna biblioteka zawierająca narzędzia do stylowania stron i aplikacji. "
+        "description": "Bootstrap to popularna biblioteka zawierająca narzędzia do stylowania stron i aplikacji. "
       },
       {
-        "link": "https://getbootstrap.com/"
+        "link": "https://getbootstrap.com/",
+        "text": "https://getbootstrap.com/"
       }
     ]
   },
@@ -17,14 +18,35 @@
     "id": 2,
     "title": "Git",
     "image": "git.png",
-    "intro": "Git to darmowy, rozproszony system kontroli wersji o otwartym kodzie źródłowym, zaprojektowany do obsługi projektów.",
+    "intro": "Git to system kontroli wersji, zaprojektowany do obsługi projektów.",
     "body": [
       {
-        "text": "Git to darmowy, rozproszony system kontroli wersji o otwartym kodzie źródłowym, zaprojektowany do obsługi projektów."
+        "description": [
+          "Git to darmowy, rozproszony system kontroli wersji o otwartym kodzie źródłowym, zaprojektowany do obsługi projektów. Powstał w 2005 r. z potrzeby sprawnego zarządzania jądrem Linuksa. Jego głównym twórcą był Linus Torvalds, twórca Linuksa."
+        ]
       },
       {
-        "link": "https://git-scm.com/"
+        "link": "https://git-scm.com/",
+        "text": "https://git-scm.com/"
       }
+    ],
+    "sources": [
+      {
+        "link": "https://git-scm.com/",
+        "text": "Strona Gita"
+      },
+      {
+        "link": "https://git-scm.com/book/en/v2",
+        "text": "Książka: Scott Chacon and Ben Straub, Pro Git, published by Apress, 2th ed., 2014."
+      },
+      {
+        "link": "https://git-scm.com/book/pl/v2",
+        "text": "Polska wersja rozdziałów książki: Pro Git."
+      }
+    ],
+    "linkEntries": [
+      "GitHub",
+      "GitLab"
     ]
   },
   {
@@ -34,11 +56,22 @@
     "intro": "GitHub to platforma do zdalnego zarządania projektami.",
     "body": [
       {
-        "text": "GitHub to platforma do zdalnego zarządania projektami."
+        "description": "GitHub to platforma do zdalnego zarządania projektami."
       },
       {
-        "link": "https://github.com/"
+        "link": "https://github.com/",
+        "text": "https://github.com/"
       }
+    ],
+    "sources": [
+      {
+        "link": "https://github.com/",
+        "text": "Strona GitHuba"
+      }
+    ],
+    "linkEntries": [
+      "Git",
+      "GitLab"
     ]
   },
   {
@@ -48,11 +81,22 @@
     "intro": "GitLab to platforma do zdalnego zarządania projektami.",
     "body": [
       {
-        "text": "GitLab to platforma do zdalnego zarządania projektami."
+        "description": "GitLab to platforma do zdalnego zarządania projektami."
       },
       {
-        "link": "https://gitlab.com/"
+        "link": "https://gitlab.com/",
+        "text": "https://gitlab.com/"
       }
+    ],
+    "sources": [
+      {
+        "link": "https://gitlab.com/",
+        "text": "Strona GitLaba"
+      }
+    ],
+    "linkEntries": [
+      "Git",
+      "GitHub"
     ]
   }
 ]
