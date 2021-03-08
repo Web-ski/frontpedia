@@ -5,14 +5,12 @@
     "image": "Bootstrap.png",
     "intro": "Bootstrap to popularna biblioteka zawierająca narzędzia do stylowania stron i aplikacji. ",
     "body": [
-      {
-        "description": "Bootstrap to popularna biblioteka zawierająca narzędzia do stylowania stron i aplikacji. "
-      },
-      {
-        "link": "https://getbootstrap.com/",
-        "text": "https://getbootstrap.com/"
-      }
-    ]
+      "Bootstrap to popularna biblioteka zawierająca narzędzia do stylowania stron i aplikacji. "
+    ],
+    "aside": {
+      "link": "https://getbootstrap.com/",
+      "text": "https://getbootstrap.com/"
+    }
   },
   {
     "id": 2,
@@ -20,16 +18,12 @@
     "image": "git.png",
     "intro": "Git to system kontroli wersji, zaprojektowany do obsługi projektów.",
     "body": [
-      {
-        "description": [
-          "Git to darmowy, rozproszony system kontroli wersji o otwartym kodzie źródłowym, zaprojektowany do obsługi projektów. Powstał w 2005 r. z potrzeby sprawnego zarządzania jądrem Linuksa. Jego głównym twórcą był Linus Torvalds, twórca Linuksa."
-        ]
-      },
-      {
-        "link": "https://git-scm.com/",
-        "text": "https://git-scm.com/"
-      }
+      "Git to darmowy, rozproszony system kontroli wersji o otwartym kodzie źródłowym, zaprojektowany do obsługi projektów. Powstał w 2005 r. z potrzeby sprawnego zarządzania jądrem Linuksa. Jego głównym twórcą był Linus Torvalds, twórca Linuksa."
     ],
+    "aside": {
+      "link": "https://git-scm.com/",
+      "text": "https://git-scm.com/"
+    },
     "sources": [
       {
         "link": "https://git-scm.com/",
@@ -55,14 +49,12 @@
     "image": "github-black.png",
     "intro": "GitHub to platforma do zdalnego zarządania projektami.",
     "body": [
-      {
-        "description": "GitHub to platforma do zdalnego zarządania projektami."
-      },
-      {
-        "link": "https://github.com/",
-        "text": "https://github.com/"
-      }
+      "GitHub to platforma do zdalnego zarządania projektami."
     ],
+    "aside": {
+      "link": "https://github.com/",
+      "text": "https://github.com/"
+    },
     "sources": [
       {
         "link": "https://github.com/",
@@ -80,14 +72,12 @@
     "image": "gitlab.png",
     "intro": "GitLab to platforma do zdalnego zarządania projektami.",
     "body": [
-      {
-        "description": "GitLab to platforma do zdalnego zarządania projektami."
-      },
-      {
-        "link": "https://gitlab.com/",
-        "text": "https://gitlab.com/"
-      }
+      "GitLab to platforma do zdalnego zarządania projektami."
     ],
+    "aside": {
+      "link": "https://gitlab.com/",
+      "text": "https://gitlab.com/"
+    },
     "sources": [
       {
         "link": "https://gitlab.com/",
