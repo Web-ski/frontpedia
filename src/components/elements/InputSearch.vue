@@ -33,7 +33,7 @@ export default {
   line-height: 18px;
   padding: 5px 12px;
   border: none;
-  border: solid 3px blueviolet;
+  border: solid 3px #eee;
   background-color: white;
   border-radius: 25px;
   color: #222222;
