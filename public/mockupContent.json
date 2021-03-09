@@ -7,10 +7,12 @@
     "body": [
       "Bootstrap to popularna biblioteka zawierająca narzędzia do stylowania stron i aplikacji. "
     ],
-    "aside": {
-      "link": "https://getbootstrap.com/",
-      "text": "https://getbootstrap.com/"
-    }
+    "aside": [
+      {
+        "link": "https://getbootstrap.com/",
+        "text": "https://getbootstrap.com/"
+      }
+    ]
   },
   {
     "id": 2,
@@ -54,10 +56,12 @@
     "body": [
       "GitHub to platforma do zdalnego zarządania projektami."
     ],
-    "aside": {
-      "link": "https://github.com/",
-      "text": "https://github.com/"
-    },
+    "aside": [
+      {
+        "link": "https://github.com/",
+        "text": "https://github.com/"
+      }
+    ],
     "sources": [
       {
         "link": "https://github.com/",
@@ -77,10 +81,12 @@
     "body": [
       "GitLab to platforma do zdalnego zarządania projektami."
     ],
-    "aside": {
-      "link": "https://gitlab.com/",
-      "text": "https://gitlab.com/"
-    },
+    "aside": [
+      {
+        "link": "https://gitlab.com/",
+        "text": "https://gitlab.com/"
+      }
+    ],
     "sources": [
       {
         "link": "https://gitlab.com/",
