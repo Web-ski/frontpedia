@@ -17,7 +17,9 @@
       </ul>
       <ul class="entry-links">
         <li v-for="link in record.linkEntries" :key="link">
-          <a :href="link">{{ link }}</a>
+          <router-link class="card-link" :to="link">
+            {{ link }}
+          </router-link>
         </li>
       </ul>
     </article>
@@ -58,7 +60,7 @@ export default {
 <style>
 .entry-board {
   display: flex;
-  flex-direction: row;
+  flex-direction: column-reverse;
   justify-content: flex-start;
   align-items: flex-start;
   min-height: 100px;
@@ -74,6 +76,7 @@ export default {
   color: black;
 }
 
+.entry-body,
 .entry-aside {
   display: flex;
   flex-direction: column;
@@ -81,17 +84,42 @@ export default {
   min-width: 250px;
   max-width: 1000px;
   padding: 20px;
-  margin: 0 0 0 20px;
+  margin: 0;
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
-  background-color: rgba(255, 255, 255, 0.35);
+  background-color: rgba(255, 255, 255, 0.45);
   border-radius: 12px;
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   color: black;
+}
+
+.entry-aside {
+  margin: 0 0 20px 0;
 }
 
 .entry-title {
   font-size: 2rem;
   margin: 0;
+}
+
+.entry-aside__image {
+  width: 50px;
+  height: 50px;
+  margin: 0;
+}
+
+@media screen and (min-width: 670px) {
+  .entry-board {
+    flex-direction: row;
+  }
+
+  .entry-aside {
+    margin: 0 0 0 20px;
+  }
+
+  .entry-aside__image {
+    width: 70px;
+    height: 70px;
+    margin: 0;
+  }
 }
 </style>
