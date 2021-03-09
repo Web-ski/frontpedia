@@ -28,9 +28,14 @@
       </article>
       <aside class="entry-aside">
         <img class="entry-aside__image" :src="url + record.image" />
-        <a class="entry-aside__link" :href="record.aside.link">{{
-          record.aside.text
-        }}</a>
+        <div v-for="item in record.aside" :key="item.link.toString()">
+          <template v-if="typeof item === 'object'">
+            <a class="entry-aside__link" :href="item.link">{{ item.text }}</a>
+          </template>
+          <template v-else>
+            <Paragraph :text="item" />
+          </template>
+        </div>
       </aside>
     </section>
   </div>
@@ -111,7 +116,6 @@ export default {
   align-items: center;
   margin: 0 0 20px 0;
   background-color: rgba(255, 255, 255, 0.65);
-  min-width: max-content;
 }
 
 .entry-title {
@@ -121,7 +125,7 @@ export default {
 }
 
 .entry-sources {
-  padding-left: 0;
+  padding-left: 20px;
   margin: 0;
   margin-bottom: 20px;
 }
@@ -140,6 +144,7 @@ export default {
 
   .entry-aside {
     margin: 0 0 0 20px;
+    text-align: center;
   }
 
   .entry-aside__image {

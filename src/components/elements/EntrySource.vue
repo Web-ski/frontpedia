@@ -16,8 +16,8 @@ export default {
 <style>
 .entry-source {
   text-decoration: none;
-  list-style: none;
   font-size: 1rem;
+  line-height: 150%;
 }
 
 @media screen and (min-width: 670px) {

@@ -20,10 +20,13 @@
     "body": [
       "Git to darmowy, rozproszony system kontroli wersji o otwartym kodzie źródłowym, zaprojektowany do obsługi projektów. Powstał w 2005 r. z potrzeby sprawnego zarządzania jądrem Linuksa. Jego głównym twórcą był Linus Torvalds, twórca Linuksa."
     ],
-    "aside": {
-      "link": "https://git-scm.com/",
-      "text": "https://git-scm.com/"
-    },
+    "aside": [
+      {
+        "link": "https://git-scm.com/",
+        "text": "https://git-scm.com/"
+      },
+      "Aktualna wersja: 2.30.1 (March 2021)"
+    ],
     "sources": [
       {
         "link": "https://git-scm.com/",
