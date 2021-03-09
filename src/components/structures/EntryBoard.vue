@@ -1,43 +1,50 @@
 <template>
   <div class="entry-board">
-    <article class="entry-body">
-      <h1 class="entry-title">{{ record.title }}</h1>
-      <p
-        class="entry-body__text"
-        v-for="paragraph in record.body"
-        :key="paragraph"
-      >
-        {{ paragraph }}
-      </p>
-      <h4>Źródła:</h4>
-      <ul class="entry-sources">
-        <li v-for="source in record.sources" :key="source.link">
-          <a :href="source.link">{{ source.text }}</a>
-        </li>
-      </ul>
-      <ul class="entry-links">
-        <li v-for="link in record.linkEntries" :key="link">
-          <router-link class="card-link" :to="link">
+    <h1 class="entry-title">{{ record.title }}</h1>
+    <section class="entry-main">
+      <article class="entry-body">
+        <p
+          class="entry-body__text"
+          v-for="paragraph in record.body"
+          :key="paragraph"
+        >
+          {{ paragraph }}
+        </p>
+        <h4>Źródła:</h4>
+        <ul class="entry-sources">
+          <li v-for="source in record.sources" :key="source.link">
+            <a :href="source.link">{{ source.text }}</a>
+          </li>
+        </ul>
+        <div class="entry-links">
+          <EntryLink
+            v-for="link in record.linkEntries"
+            :key="link"
+            :link="link"
+          >
             {{ link }}
-          </router-link>
-        </li>
-      </ul>
-    </article>
-    <aside class="entry-aside">
-      <h2 class="entry-title">{{ record.title }}</h2>
-      <img class="entry-aside__image" :src="url + record.image" />
-      <a class="entry-aside__link" :href="record.aside.link">{{
-        record.aside.text
-      }}</a>
-    </aside>
+          </EntryLink>
+        </div>
+      </article>
+      <aside class="entry-aside">
+        <img class="entry-aside__image" :src="url + record.image" />
+        <a class="entry-aside__link" :href="record.aside.link">{{
+          record.aside.text
+        }}</a>
+      </aside>
+    </section>
   </div>
 </template>
 
 <script>
 import store from "../../api/store";
+import EntryLink from "../elements/EntryLink";
 
 export default {
   name: "EntryBoard",
+  components: {
+    EntryLink,
+  },
   data() {
     return { url: "/images/" };
   },
@@ -60,7 +67,7 @@ export default {
 <style>
 .entry-board {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
   min-height: 100px;
@@ -76,29 +83,35 @@ export default {
   color: black;
 }
 
+.entry-main {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
 .entry-body,
 .entry-aside {
   display: flex;
   flex-direction: column;
   min-height: 100px;
-  min-width: 250px;
   max-width: 1000px;
   padding: 20px;
   margin: 0;
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
-  background-color: rgba(255, 255, 255, 0.45);
+  background-color: rgba(255, 255, 255, 0.65);
   border-radius: 12px;
   color: black;
 }
 
 .entry-aside {
+  align-items: center;
   margin: 0 0 20px 0;
 }
 
 .entry-title {
   font-size: 2rem;
   margin: 0;
+  margin-bottom: 10px;
 }
 
 .entry-aside__image {
@@ -108,7 +121,8 @@ export default {
 }
 
 @media screen and (min-width: 670px) {
-  .entry-board {
+  .entry-main {
+    display: flex;
     flex-direction: row;
   }
 
