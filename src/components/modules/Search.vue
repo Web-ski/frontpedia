@@ -27,18 +27,5 @@ export default {
   justify-content: center;
   align-items: center;
   margin: 10px;
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
-  border-radius: 12px;
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  background-image: linear-gradient(
-    to bottom right,
-    rgba(255, 255, 255, 0.25),
-    rgba(255, 255, 255, 0.05)
-  );
-  border-style: solid;
-  border-width: 2px;
-  border-color: rgba(255, 255, 255, 0.3) rgba(0, 0, 0, 0.05) rgba(0, 0, 0, 0.05)
-    rgba(255, 255, 255, 0.3);
 }
 </style>

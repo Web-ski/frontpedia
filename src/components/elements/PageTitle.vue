@@ -13,16 +13,16 @@ export default {
 
 <style>
 .page-title {
-  font-family: Comfortaa, sans-serif;
-  font-size: 30px;
-  font-weight: 700;
+  color: white;
+  font-family: "Archivo Black", sans-serif;
+  font-size: 2.5rem;
   display: inline-block;
   margin: 10px auto;
 }
 
 @media screen and (min-width: 670px) {
   .page-title {
-    font-size: 40px;
+    font-size: 3rem;
   }
 }
 </style>

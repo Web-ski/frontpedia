@@ -1,8 +1,8 @@
 <template>
   <div class="entry-board">
+    <h1 class="entry-title">{{ record.title }}</h1>
     <section class="entry-main">
       <article class="entry-body">
-        <h1 class="entry-title">{{ record.title }}</h1>
         <Paragraph
           v-for="paragraph in record.body"
           :key="paragraph"
@@ -16,15 +16,6 @@
             :source="source"
           />
         </ul>
-        <div class="entry-links">
-          <EntryLink
-            v-for="link in record.linkEntries"
-            :key="link"
-            :link="link"
-          >
-            {{ link }}
-          </EntryLink>
-        </div>
       </article>
       <aside class="entry-aside">
         <img class="entry-aside__image" :src="url + record.image" />
@@ -38,6 +29,11 @@
         </div>
       </aside>
     </section>
+    <div class="entry-links">
+      <EntryLink v-for="link in record.linkEntries" :key="link" :link="link">
+        {{ link }}
+      </EntryLink>
+    </div>
   </div>
 </template>
 
@@ -82,13 +78,7 @@ export default {
   min-height: 100px;
   min-width: 250px;
   max-width: 1000px;
-  padding: 15px;
   margin: 40px auto;
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
-  background-color: rgba(255, 255, 255, 0.35);
-  border-radius: 15px;
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   color: black;
 }
 
@@ -105,9 +95,7 @@ export default {
   max-width: 1000px;
   padding: 20px;
   margin: 0;
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: white;
   border-radius: 12px;
   color: black;
 }
@@ -121,6 +109,7 @@ export default {
   font-size: 2rem;
   margin: 0;
   margin-bottom: 10px;
+  color: white;
 }
 
 .entry-sources {
@@ -141,12 +130,13 @@ export default {
 }
 
 @media screen and (min-width: 670px) {
-  .entry-board {
-    padding: 20px;
-  }
   .entry-main {
     display: flex;
     flex-direction: row;
+  }
+
+  .entry-body {
+    padding: 30px 40px;
   }
 
   .entry-aside {
@@ -157,6 +147,10 @@ export default {
   .entry-aside__image {
     width: 80px;
     height: 80px;
+  }
+
+  .entry-title {
+    font-size: 2.5rem;
   }
 }
 </style>

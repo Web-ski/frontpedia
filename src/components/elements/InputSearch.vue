@@ -33,9 +33,9 @@ export default {
   line-height: 18px;
   padding: 5px 12px;
   border: none;
-  box-shadow: inset -1px -1px 5px white, inset 2px 2px 5px rgba(0, 0, 0, 0.6);
-  background-color: rgba(255, 255, 255, 0.6);
-  border-radius: 10px;
+  border: solid 3px blueviolet;
+  background-color: white;
+  border-radius: 25px;
   color: #222222;
 }
 

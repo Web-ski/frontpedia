@@ -43,19 +43,9 @@ export default {
   min-width: 250px;
   max-width: 300px;
   margin: 40px auto;
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
-  border-radius: 15px;
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  background-image: linear-gradient(
-    to bottom right,
-    rgba(255, 255, 255, 0.25),
-    rgba(255, 255, 255, 0.05)
-  );
-  border-style: solid;
-  border-width: 2px;
-  border-color: rgba(255, 255, 255, 0.3) rgba(0, 0, 0, 0.05) rgba(0, 0, 0, 0.05)
-    rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  border: solid 4px white;
+  background-color: white;
 }
 
 .card-header,
@@ -65,22 +55,25 @@ export default {
   letter-spacing: 0.5px;
 }
 
+.card-body {
+  padding: 20px 20px;
+}
+
 .card-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
-  background-color: rgba(255, 255, 255, 0.85);
-  border-radius: 12px;
   border-bottom: none;
+  border-radius: 12px;
+  background-color: #eee;
   margin: 5px;
 }
 
 .card-title {
   margin: 0;
   font-size: 20px;
-  color: rgb(26, 59, 167);
+  color: #222;
+  font-size: 1.3rem;
 }
 
 .card-text {
@@ -102,6 +95,9 @@ export default {
 }
 
 @media screen and (min-width: 670px) {
+  .card-title {
+    font-size: 1.5rem;
+  }
   .card-text {
     font-size: 1.2rem;
   }

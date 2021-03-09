@@ -18,11 +18,19 @@ export default {
   text-decoration: none;
   font-size: 1rem;
   display: inline-block;
-  margin: 10px 5px;
+  margin: 20px 5px;
+  min-width: 80px;
+  text-align: center;
   color: white;
-  background-color: #2c73d4;
+  background-color: #111;
   border-radius: 20px;
-  padding: 7px 12px;
+  padding: 9px 12px;
+  transition: 0.2s;
+}
+
+.entry-link:hover {
+  background-color: white;
+  color: #111;
 }
 
 @media screen and (min-width: 670px) {
