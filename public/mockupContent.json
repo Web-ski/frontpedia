@@ -27,7 +27,7 @@
         "link": "https://git-scm.com/",
         "text": "https://git-scm.com/"
       },
-      "Aktualna wersja: 2.30.1 (March 2021)"
+      "Wersja: 2.30.1 (March 2021)"
     ],
     "sources": [
       {
@@ -54,7 +54,8 @@
     "image": "github-black.png",
     "intro": "GitHub to platforma do zdalnego zarządania projektami.",
     "body": [
-      "GitHub to platforma do zdalnego zarządania projektami."
+      "GitHub to platforma do zdalnego zarządania projektami. Powstała ona w 2008 r., a jednym z jej założycieli był Tom Preston-Werner. Dotychczas powstało na niej ponad 100 milionów repozytoriów, użytkowanych przez ponad 56 milionów programistów i ponad 3 miliony organizacji (dane z marca 2021 r.).",
+      "Usługa GitHub Pages umożliwia publikację witryny internetowej bezpośrednio z repozytorium. Platforma GitHub w wersji podstawowej jest darmowa. "
     ],
     "aside": [
       {
@@ -66,6 +67,14 @@
       {
         "link": "https://github.com/",
         "text": "Strona GitHuba"
+      },
+      {
+        "link": "https://docs.github.com/en",
+        "text": "Dokumentacja GitHuba"
+      },
+      {
+        "link": "https://techcrunch.com/2012/07/09/github-pours-energies-into-enterprise-raises-100-million-from-power-vc-andreesen-horowitz/?guccounter=1&guce_referrer=aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnLw&guce_referrer_sig=AQAAAKw4s-x6Z8Aeqi49Lgy6BVA-8GHoZO3uqIr7Am-Ytm8lFo_UhINaqrXmwJ5C6u88FM6sRM6JQi0ZqErzpFQj7Z9OkGARD4LVR5kcxvphqicpdJLrrS8xHRk__gtTGSZzrywFpm7dH2tZjy3BLdmy28HD758QpssK4JZA-LGaCWJ9",
+        "text": "GitHub Pours Energies into Enterprise – Raises $100 Million From Power VC Andreessen Horowitz, z dn. 9 lipca 2012, 'Tech Crunch'."
       }
     ],
     "linkEntries": [

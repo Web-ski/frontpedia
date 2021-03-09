@@ -8,7 +8,7 @@
           :key="paragraph"
           :text="paragraph"
         />
-        <h4>Źródła:</h4>
+        <h4 class="entry-sources__title">Źródła:</h4>
         <ul class="entry-sources">
           <EntrySource
             v-for="source in record.sources"
@@ -129,6 +129,11 @@ export default {
   margin-bottom: 20px;
 }
 
+.entry-sources__title {
+  font-size: 1rem;
+  margin: 10px 0 0;
+}
+
 .entry-aside__image {
   width: 50px;
   height: 50px;
@@ -150,8 +155,8 @@ export default {
   }
 
   .entry-aside__image {
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
   }
 }
 </style>

@@ -29,7 +29,7 @@ export default {
   }
 
   .paragraph--small {
-    font-size: 1.1rem;
+    font-size: 1rem;
     line-height: 140%;
   }
 }
