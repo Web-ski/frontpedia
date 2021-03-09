@@ -19,7 +19,8 @@ export default {
 </script>
 
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Lato:wght@300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap");
+
 body {
   margin: 0;
 }
@@ -149,7 +150,7 @@ body {
   min-height: 100vh;
   color: rgb(26, 59, 167);
   color: white;
-  font-family: Lato, sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 </style>
 /* https://www.gradientmagic.com/collection/popular/gradient/1599427515870 */

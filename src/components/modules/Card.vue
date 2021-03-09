@@ -45,9 +45,17 @@ export default {
   margin: 40px auto;
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
-  background-color: rgba(255, 255, 255, 0.25);
-  border-radius: 12px;
+  border-radius: 15px;
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(255, 255, 255, 0.25),
+    rgba(255, 255, 255, 0.05)
+  );
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgba(255, 255, 255, 0.3) rgba(0, 0, 0, 0.05) rgba(0, 0, 0, 0.05)
+    rgba(255, 255, 255, 0.3);
 }
 
 .card-header,
@@ -63,10 +71,10 @@ export default {
   align-items: center;
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
-  background-color: rgba(255, 255, 255, 0.55);
-  border-radius: 12px 12px 0 0;
-  border: 2px solid rgba(245, 106, 106, 0.18);
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 12px;
   border-bottom: none;
+  margin: 5px;
 }
 
 .card-title {

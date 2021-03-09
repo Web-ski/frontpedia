@@ -1,8 +1,8 @@
 <template>
   <div class="entry-board">
-    <h1 class="entry-title">{{ record.title }}</h1>
     <section class="entry-main">
       <article class="entry-body">
+        <h1 class="entry-title">{{ record.title }}</h1>
         <Paragraph
           v-for="paragraph in record.body"
           :key="paragraph"
@@ -33,7 +33,7 @@
             <a class="entry-aside__link" :href="item.link">{{ item.text }}</a>
           </template>
           <template v-else>
-            <Paragraph :text="item" />
+            <Paragraph small :text="item" />
           </template>
         </div>
       </aside>
@@ -82,12 +82,12 @@ export default {
   min-height: 100px;
   min-width: 250px;
   max-width: 1000px;
-  padding: 20px;
+  padding: 15px;
   margin: 40px auto;
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   background-color: rgba(255, 255, 255, 0.35);
-  border-radius: 12px;
+  border-radius: 15px;
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   color: black;
 }
@@ -115,7 +115,6 @@ export default {
 .entry-aside {
   align-items: center;
   margin: 0 0 20px 0;
-  background-color: rgba(255, 255, 255, 0.65);
 }
 
 .entry-title {
@@ -137,6 +136,9 @@ export default {
 }
 
 @media screen and (min-width: 670px) {
+  .entry-board {
+    padding: 20px;
+  }
   .entry-main {
     display: flex;
     flex-direction: row;

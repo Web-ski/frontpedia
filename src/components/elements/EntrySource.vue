@@ -16,13 +16,14 @@ export default {
 <style>
 .entry-source {
   text-decoration: none;
-  font-size: 1rem;
-  line-height: 150%;
+  font-size: 0.9rem;
+  line-height: 140%;
+  margin: 8px 0;
 }
 
 @media screen and (min-width: 670px) {
   .entry-source {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 }
 </style>
