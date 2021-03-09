@@ -3,18 +3,18 @@
     <h1 class="entry-title">{{ record.title }}</h1>
     <section class="entry-main">
       <article class="entry-body">
-        <p
-          class="entry-body__text"
+        <Paragraph
           v-for="paragraph in record.body"
           :key="paragraph"
-        >
-          {{ paragraph }}
-        </p>
+          :text="paragraph"
+        />
         <h4>Źródła:</h4>
         <ul class="entry-sources">
-          <li v-for="source in record.sources" :key="source.link">
-            <a :href="source.link">{{ source.text }}</a>
-          </li>
+          <EntrySource
+            v-for="source in record.sources"
+            :key="source.link"
+            :source="source"
+          />
         </ul>
         <div class="entry-links">
           <EntryLink
@@ -39,11 +39,15 @@
 <script>
 import store from "../../api/store";
 import EntryLink from "../elements/EntryLink";
+import EntrySource from "../elements/EntrySource";
+import Paragraph from "../elements/Paragraph";
 
 export default {
   name: "EntryBoard",
   components: {
     EntryLink,
+    EntrySource,
+    Paragraph,
   },
   data() {
     return { url: "/images/" };
@@ -98,7 +102,7 @@ export default {
   margin: 0;
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
-  background-color: rgba(255, 255, 255, 0.65);
+  background-color: rgba(255, 255, 255, 0.85);
   border-radius: 12px;
   color: black;
 }
@@ -106,6 +110,8 @@ export default {
 .entry-aside {
   align-items: center;
   margin: 0 0 20px 0;
+  background-color: rgba(255, 255, 255, 0.65);
+  min-width: max-content;
 }
 
 .entry-title {
@@ -114,10 +120,16 @@ export default {
   margin-bottom: 10px;
 }
 
+.entry-sources {
+  padding-left: 0;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
 .entry-aside__image {
   width: 50px;
   height: 50px;
-  margin: 0;
+  margin: 10px;
 }
 
 @media screen and (min-width: 670px) {
@@ -133,7 +145,6 @@ export default {
   .entry-aside__image {
     width: 70px;
     height: 70px;
-    margin: 0;
   }
 }
 </style>
