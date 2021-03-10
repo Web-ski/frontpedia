@@ -24,7 +24,6 @@ export default {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: blueviolet;
 }
 
 .nav {
@@ -53,6 +52,6 @@ export default {
 .brand {
   line-height: 100%;
   color: white;
-  font-family: "Archivo Black", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 </style>

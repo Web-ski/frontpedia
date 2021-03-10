@@ -42,7 +42,7 @@ export default {
   min-height: 100px;
   min-width: 250px;
   max-width: 300px;
-  margin: 40px auto;
+  margin: 20px auto;
   border-radius: 12px;
   border: solid 4px white;
   background-color: white;
@@ -116,6 +116,7 @@ export default {
 
   .card {
     max-width: 400px;
+    margin: 20px;
   }
 }
 </style>

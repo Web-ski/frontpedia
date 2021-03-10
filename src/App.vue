@@ -20,13 +20,16 @@ export default {
 
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
 
 body {
   margin: 0;
 }
 #app {
-  background-color: blueviolet;
+  background-color: rgb(122, 43, 226);
+  background-image: url("./assets/Fala_BOX.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
   min-height: 100vh;
   color: rgb(26, 59, 167);
   color: #222;

@@ -14,7 +14,7 @@ export default {
 <style>
 .page-title {
   color: white;
-  font-family: "Archivo Black", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 2.5rem;
   display: inline-block;
   margin: 10px auto;

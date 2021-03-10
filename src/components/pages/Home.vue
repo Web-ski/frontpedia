@@ -58,4 +58,17 @@ export default {
   align-items: center;
   padding: 20px;
 }
+
+.card-container {
+}
+
+@media screen and (min-width: 670px) {
+  .card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
 </style>

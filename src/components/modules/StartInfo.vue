@@ -1,6 +1,6 @@
 <template>
-  <section class="start-info-container">
-    <h3>{{ text1 + recordsNumber + text2 }}</h3>
+  <section class="start-info__container">
+    <h3 class="start-info__text">{{ text1 + recordsNumber + text2 }}</h3>
   </section>
 </template>
 
@@ -20,3 +20,20 @@ export default {
   },
 };
 </script>
+
+<style>
+.start-info__container {
+  min-height: 200px;
+}
+.start-info__text {
+  color: white;
+  font-size: 1.5rem;
+}
+
+@media screen and (min-width: 670px) {
+  .start-info__text {
+    color: white;
+    font-size: 1.8rem;
+  }
+}
+</style>
