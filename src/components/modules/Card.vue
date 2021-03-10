@@ -46,6 +46,18 @@ export default {
   border-radius: 12px;
   border: solid 4px white;
   background-color: white;
+  animation: cardShow 0.5s;
+}
+
+@keyframes cardShow {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 .card-header,

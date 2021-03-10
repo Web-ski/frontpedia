@@ -82,6 +82,17 @@ export default {
   color: black;
 }
 
+@keyframes cardShow {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
 .entry-main {
   display: flex;
   flex-direction: column-reverse;
@@ -98,6 +109,7 @@ export default {
   background-color: white;
   border-radius: 12px;
   color: black;
+  animation: cardShow 0.5s;
 }
 
 .entry-aside {
@@ -127,6 +139,10 @@ export default {
   width: 50px;
   height: 50px;
   margin: 10px;
+}
+
+.entry-links {
+  margin: 15px 0;
 }
 
 @media screen and (min-width: 670px) {

@@ -31,6 +31,7 @@ body {
   color: rgb(26, 59, 167);
   color: #222;
   font-family: "Open Sans", sans-serif;
+  overflow: hidden;
 }
 </style>
 /* https://www.gradientmagic.com/collection/popular/gradient/1599427515870 */

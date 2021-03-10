@@ -17,10 +17,17 @@ export default {
   padding: 0;
   border: none;
   background-color: transparent;
+  background-image: url("../../assets/right-arrow.svg");
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 55%;
+  background-size: 20px;
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
   border-bottom: solid 2px transparent;
   line-height: 110%;
+  width: 70px;
+  text-align: left;
 }
 
 .button-more:hover {

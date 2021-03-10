@@ -18,7 +18,7 @@ export default {
   text-decoration: none;
   font-size: 1rem;
   display: inline-block;
-  margin: 20px 5px;
+  margin: 5px;
   min-width: 80px;
   text-align: center;
   color: white;
