@@ -77,7 +77,7 @@ export default {
   align-items: flex-start;
   min-height: 100px;
   min-width: 250px;
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 40px auto;
   color: black;
 }

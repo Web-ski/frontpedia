@@ -14,6 +14,7 @@ export default {
 
 <style>
 .paragraph {
+  color: #333;
   font-size: 1.1rem;
   line-height: 150%;
 }
