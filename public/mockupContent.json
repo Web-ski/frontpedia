@@ -7,13 +7,14 @@
     "body": [
       "HTML, czyli hipertekstowy język znaczników (HyperText Markup Language), jest kodem za pomocą którego tworzy się strukturę strony internetowej i jej zawartości. HTML powstał w latach 1990-1995, przechodząc w tym czasie szereg poprawek i rozszerzeń. Dalszym jego opracowywaniem zajęła się międzynarodowa społeczność W3C (The World Wide Web Consortium). W 1995 r. dokonano rozszerzenia HTML, znane jako HTML 3.0, zastąpione jednak już w 1997 r. rozszerzeniem HTML 3.2, a niedługo po nim HTML4. W 2004 r. rozpoczęły się prace nad kolejnym, aktualnym wydaniem HTML, znanym jako HTML5. W 2019 r. WHATWG i W3C podpisały porozumienie o współpracy nad wspólną wersją HTML.",
       "HTML nie jest językiem programowania; składa się ze znaczników (tagów), służących do opakowania różnych części treści, tak aby działały w określony sposób.",
-      "Aktualny standart HTML jest określany przez społeczność WHATWG (The Web Hypertext Application Technology Working Group), stworzoną w 2004 r. przez programistów z Apple, Mozilla Foundation i Opera Software."
+      "Aktualny standart HTML jest określany przez społeczność WHATWG."
     ],
     "aside": [
       {
         "link": "https://html.spec.whatwg.org",
         "text": "https://html.spec.whatwg.org"
-      }
+      },
+      "Aktualna wersja: HTML5"
     ],
     "sources": [
       {
@@ -174,6 +175,57 @@
         "link": "https://getbootstrap.com/",
         "text": "https://getbootstrap.com/"
       }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "WHATWG",
+    "image": "",
+    "intro": "Społeczność - The Web Hypertext Application Technology Working Group.",
+    "body": [
+      "WHATWG, czyli The Web Hypertext Application Technology Working Group, jest społecznością skupioną wokół rozwoju sieci poprzez jej standaryzację. Została utworzona w 2004 r. przez programistów z Apple, Mozilla Foundation i Opera Software, w celu rozwoju HTML. Od 2017 r. rozwój WHATWG wspierany jest przez Apple, Google, Microsoft i Mozillę."
+    ],
+    "aside": [
+      {
+        "link": "https://whatwg.org/",
+        "text": "https://whatwg.org/"
+      }
+    ],
+    "sources": [
+      {
+        "link": "https://whatwg.org/",
+        "text": "Strona WHATWG"
+      }
+    ],
+    "linkEntries": [
+      "HTML",
+      "W3C"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "W3C",
+    "image": "W3C.png",
+    "intro": "Społeczność - The Web Hypertext Application Technology Working Group.",
+    "body": [
+      "W3C, czyli The World Wide Web Consortium, to międzynarodowa społeczność, która opracowuje otwarte standardy mające zapewnienić długotrwały rozwój sieci.",
+      "W3C zostało założone w 1994 r. przez Timothy'ego Berners-Lee – brytyjskiego programistę, pioniera usług WWW. Siedziba konsorcjum znajduje się obecnie w Massachusetts."
+    ],
+    "aside": [
+      {
+        "link": "https://www.w3.org/",
+        "text": "https://www.w3.org/"
+      }
+    ],
+    "sources": [
+      {
+        "link": "https://whatwg.org/",
+        "text": "Strona WHATWG"
+      }
+    ],
+    "linkEntries": [
+      "HTML",
+      "WHATWG"
     ]
   }
 ]
