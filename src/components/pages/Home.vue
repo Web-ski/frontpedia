@@ -1,5 +1,5 @@
 <template>
-  <main id="home">
+  <MainTemplate>
     <PageTitle :title="pageName" />
     <Search />
     <section class="card-container">
@@ -17,10 +17,11 @@
         <StartInfo />
       </template>
     </section>
-  </main>
+  </MainTemplate>
 </template>
 
 <script>
+import MainTemplate from "../templates/MainTemplate";
 import PageTitle from "../elements/PageTitle";
 import Search from "../modules/Search";
 import Card from "../modules/Card";
@@ -40,6 +41,7 @@ export default {
     Search,
     Card,
     StartInfo,
+    MainTemplate,
   },
   computed: {
     records: () => {
@@ -51,17 +53,6 @@ export default {
 </script>
 
 <style>
-#home {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-}
-
-.card-container {
-}
-
 @media screen and (min-width: 670px) {
   .card-container {
     display: flex;

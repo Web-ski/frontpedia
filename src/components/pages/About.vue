@@ -1,12 +1,17 @@
 <template>
-  <div id="about">
+  <MainTemplate>
     <h1>About the project</h1>
-  </div>
+  </MainTemplate>
 </template>
 
 <script>
+import MainTemplate from "../templates/MainTemplate";
+
 export default {
   name: "About",
+  components: {
+    MainTemplate,
+  },
 };
 </script>
 

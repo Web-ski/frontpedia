@@ -5,8 +5,8 @@
       <div class="brand">pedia</div>
     </div>
     <nav>
-      <router-link class="nav-link" to="/"> home</router-link>
-      <router-link class="nav-link" to="/about">about</router-link>
+      <router-link class="nav-link" to="/">strona główna</router-link>
+      <router-link class="nav-link" to="/about">o projekcie</router-link>
     </nav>
   </div>
 </template>
