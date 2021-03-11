@@ -1,0 +1,231 @@
+[
+  {
+    "id": 1,
+    "title": "HTML",
+    "image": "html5.png",
+    "intro": "HTML to kod służący do tworzenia struktury strony internetowej i jej zawartości.",
+    "body": [
+      "HTML, czyli hipertekstowy język znaczników (HyperText Markup Language), jest kodem za pomocą którego tworzy się strukturę strony internetowej i jej zawartości. HTML powstał w latach 1990-1995, przechodząc w tym czasie szereg poprawek i rozszerzeń. Dalszym jego opracowywaniem zajęła się międzynarodowa społeczność W3C (The World Wide Web Consortium). W 1995 r. dokonano rozszerzenia HTML, znane jako HTML 3.0, zastąpione jednak już w 1997 r. rozszerzeniem HTML 3.2, a niedługo po nim HTML4. W 2004 r. rozpoczęły się prace nad kolejnym, aktualnym wydaniem HTML, znanym jako HTML5. W 2019 r. WHATWG i W3C podpisały porozumienie o współpracy nad wspólną wersją HTML.",
+      "HTML nie jest językiem programowania; składa się ze znaczników (tagów), służących do opakowania różnych części treści, tak aby działały w określony sposób.",
+      "Aktualny standart HTML jest określany przez społeczność WHATWG."
+    ],
+    "aside": [
+      {
+        "link": "https://html.spec.whatwg.org",
+        "text": "https://html.spec.whatwg.org"
+      },
+      "Aktualna wersja: HTML5"
+    ],
+    "sources": [
+      {
+        "link": "https://html.spec.whatwg.org/",
+        "text": "Strona WHATWG ze standardem HTML"
+      },
+      {
+        "link": "https://developer.mozilla.org/pl/docs/Learn/Getting_started_with_the_web/HTML_basics#czym_w%C5%82a%C5%9Bciwie_jest_html",
+        "text": "Strona Mozilli z informacjami o HTML"
+      }
+    ],
+    "linkEntries": [
+      "WHATWG",
+      "W3C"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Git",
+    "image": "git.png",
+    "intro": "Git to system kontroli wersji, zaprojektowany do obsługi projektów.",
+    "body": [
+      "Git to darmowy, rozproszony system kontroli wersji o otwartym kodzie źródłowym, zaprojektowany do obsługi projektów. Powstał w 2005 r. z potrzeby sprawnego zarządzania jądrem Linuksa. Jego głównym twórcą był Linus Torvalds, twórca Linuksa."
+    ],
+    "aside": [
+      {
+        "link": "https://git-scm.com/",
+        "text": "https://git-scm.com/"
+      },
+      "Wersja: 2.30.1 (March 2021)"
+    ],
+    "sources": [
+      {
+        "link": "https://git-scm.com/",
+        "text": "Strona Gita"
+      },
+      {
+        "link": "https://git-scm.com/book/en/v2",
+        "text": "Książka: Scott Chacon and Ben Straub, Pro Git, published by Apress, 2th ed., 2014."
+      },
+      {
+        "link": "https://git-scm.com/book/pl/v2",
+        "text": "Polska wersja rozdziałów książki: Pro Git."
+      }
+    ],
+    "linkEntries": [
+      "GitHub",
+      "GitLab",
+      "Bitbucket"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "GitHub",
+    "image": "github-black.png",
+    "intro": "GitHub to platforma do zdalnego zarządania projektami.",
+    "body": [
+      "GitHub to platforma do zdalnego zarządania projektami. Powstała ona w 2008 r., a jednym z jej założycieli był Tom Preston-Werner. Dotychczas powstało na niej ponad 100 milionów repozytoriów, użytkowanych przez ponad 56 milionów programistów i ponad 3 miliony organizacji (dane z marca 2021 r.).",
+      "Usługa GitHub Pages umożliwia publikację witryny internetowej bezpośrednio z repozytorium. Platforma GitHub w wersji podstawowej jest darmowa. "
+    ],
+    "aside": [
+      {
+        "link": "https://github.com/",
+        "text": "https://github.com/"
+      }
+    ],
+    "sources": [
+      {
+        "link": "https://github.com/",
+        "text": "Strona GitHuba"
+      },
+      {
+        "link": "https://docs.github.com/en",
+        "text": "Dokumentacja GitHuba"
+      },
+      {
+        "link": "https://techcrunch.com/2012/07/09/github-pours-energies-into-enterprise-raises-100-million-from-power-vc-andreesen-horowitz/?guccounter=1&guce_referrer=aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnLw&guce_referrer_sig=AQAAAKw4s-x6Z8Aeqi49Lgy6BVA-8GHoZO3uqIr7Am-Ytm8lFo_UhINaqrXmwJ5C6u88FM6sRM6JQi0ZqErzpFQj7Z9OkGARD4LVR5kcxvphqicpdJLrrS8xHRk__gtTGSZzrywFpm7dH2tZjy3BLdmy28HD758QpssK4JZA-LGaCWJ9",
+        "text": "GitHub Pours Energies into Enterprise – Raises $100 Million From Power VC Andreessen Horowitz, z dn. 9 lipca 2012, 'Tech Crunch'."
+      }
+    ],
+    "linkEntries": [
+      "Git",
+      "GitLab",
+      "Bitbucket"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "GitLab",
+    "image": "gitlab.png",
+    "intro": "GitLab to platforma do zdalnego zarządania projektami.",
+    "body": [
+      "GitLab to platforma do zdalnego zarządania projektami. Powstała w 2011 r., jako projekt open source, w celu pomocy zespołom we współpracy przy tworzeniu oprogramowania. Użytkowana jest przez 30 milionów zarejestrowanych użytkowników i ponad 100 tysięcy organizacji (dane z marca 2021 r.).",
+      "Twórcami GitLaba byli Dmitriy Zaporozhets i Valery Sizov. Nazwa została zainspirowana GitWebem i innymi produktami git'a. W 2020 r. zespół GitLaba liczył ponad 1200 osób pochodzących z 65 krajów."
+    ],
+    "aside": [
+      {
+        "link": "https://gitlab.com/",
+        "text": "https://gitlab.com/"
+      }
+    ],
+    "sources": [
+      {
+        "link": "https://gitlab.com/",
+        "text": "Strona GitLaba"
+      },
+      {
+        "link": "https://www.forbes.com/sites/alexkonrad/2020/11/11/no-office-no-problem-software-unicorn-gitlabs-ceo-warns-youre-probably-doing-remote-work-wrong/?sh=4850ddeb4c8b",
+        "text": "A. Konrad, No Office, No Problem: Software Unicorn Gitlab's CEO Warns You're Probably Doing Remote Work Wrong, z dn. 11 listopada 2020, 'Forbes'."
+      }
+    ],
+    "linkEntries": [
+      "Git",
+      "GitHub",
+      "Bitbucket"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Bitbucket",
+    "image": "bitbucket.png",
+    "intro": "Bitbucket to platforma do zdalnego zarządania projektami.",
+    "body": [
+      "Bitbucket to platforma do zdalnego zarządania projektami. Została stworzona w 2010 r. przez firmę Atlassian. Użytkowana jest przez ponad 10 milionów programistów i ponad milion zespołów (dane z marca 2021 r.)."
+    ],
+    "aside": [
+      {
+        "link": "https://bitbucket.org/",
+        "text": "https://bitbucket.org/"
+      }
+    ],
+    "sources": [
+      {
+        "link": "https://bitbucket.org/",
+        "text": "Strona Bitbucketa"
+      },
+      {
+        "link": "https://www.atlassian.com/",
+        "text": "Strona Atlassian"
+      }
+    ],
+    "linkEntries": [
+      "Git",
+      "GitHub",
+      "GitLab"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Bootstrap",
+    "image": "Bootstrap.png",
+    "intro": "Bootstrap to popularna biblioteka zawierająca narzędzia do stylowania stron i aplikacji. ",
+    "body": [
+      "Bootstrap to popularna biblioteka zawierająca narzędzia do stylowania stron i aplikacji. "
+    ],
+    "aside": [
+      {
+        "link": "https://getbootstrap.com/",
+        "text": "https://getbootstrap.com/"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "WHATWG",
+    "image": "",
+    "intro": "Społeczność - The Web Hypertext Application Technology Working Group.",
+    "body": [
+      "WHATWG, czyli The Web Hypertext Application Technology Working Group, jest społecznością skupioną wokół rozwoju sieci poprzez jej standaryzację. Została utworzona w 2004 r. przez programistów z Apple, Mozilla Foundation i Opera Software, w celu rozwoju HTML. Od 2017 r. rozwój WHATWG wspierany jest przez Apple, Google, Microsoft i Mozillę."
+    ],
+    "aside": [
+      {
+        "link": "https://whatwg.org/",
+        "text": "https://whatwg.org/"
+      }
+    ],
+    "sources": [
+      {
+        "link": "https://whatwg.org/",
+        "text": "Strona WHATWG"
+      }
+    ],
+    "linkEntries": [
+      "HTML",
+      "W3C"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "W3C",
+    "image": "W3C.png",
+    "intro": "Społeczność - The Web Hypertext Application Technology Working Group.",
+    "body": [
+      "W3C, czyli The World Wide Web Consortium, to międzynarodowa społeczność, która opracowuje otwarte standardy mające zapewnienić długotrwały rozwój sieci.",
+      "W3C zostało założone w 1994 r. przez Timothy'ego Berners-Lee – brytyjskiego programistę, pioniera usług WWW. Siedziba konsorcjum znajduje się obecnie w Massachusetts."
+    ],
+    "aside": [
+      {
+        "link": "https://www.w3.org/",
+        "text": "https://www.w3.org/"
+      }
+    ],
+    "sources": [
+      {
+        "link": "https://whatwg.org/",
+        "text": "Strona WHATWG"
+      }
+    ],
+    "linkEntries": [
+      "HTML",
+      "WHATWG"
+    ]
+  }
+]
