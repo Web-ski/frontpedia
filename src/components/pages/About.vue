@@ -1,10 +1,11 @@
 <template>
   <MainTemplate>
-    <InfoText :text="title" />
     <section class="about-info__container">
-      <h4>{{ text1 }}</h4>
-      <h4>{{ text2 + recordsNumber + " haseł." }}</h4>
-      <h4>{{ text3 }}</h4>
+      <InfoText :text="title" class="about-title" />
+      <p class="about-text">{{ mainText }}</p>
+      <article class="about-info__article">
+        <InfoBox :number="recordsNumber.toString()" :text="text1" />
+      </article>
     </section>
   </MainTemplate>
 </template>
@@ -13,11 +14,12 @@
 import store from "../../api/store";
 import MainTemplate from "../templates/MainTemplate";
 import InfoText from "../elements/InfoText";
+import InfoBox from "../modules/InfoBox";
 import {
   aboutHeading,
   aboutText,
-  infoText,
-  aboutAuthor,
+  infoText1,
+  aboutAuthor
 } from "../../const/about";
 
 export default {
@@ -25,26 +27,57 @@ export default {
   data() {
     return {
       title: aboutHeading,
-      text1: aboutText,
-      text2: infoText,
-      text3: aboutAuthor,
+      mainText: aboutText,
+      text1: infoText1,
+      text3: aboutAuthor
     };
   },
   components: {
     MainTemplate,
     InfoText,
+    InfoBox
   },
   computed: {
     recordsNumber: () => {
       return store.getters.getRecordsNumber;
-    },
-  },
+    }
+  }
 };
 </script>
 
 <style>
 .about-info__container {
   min-height: 200px;
-  max-width: 1000px;
+}
+
+.about-text {
+  color: #eeeeee;
+  font-size: 1.3rem;
+}
+.about-text--small {
+  color: #eeeeee;
+}
+
+.about-info__article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+@media screen and (min-width: 670px) {
+  .about-info__container {
+    max-width: 920px;
+    padding: 40px;
+  }
+
+  .about-info__article {
+    flex-direction: row;
+  }
+
+  .about-text {
+    font-size: 1.5rem;
+  }
 }
 </style>
