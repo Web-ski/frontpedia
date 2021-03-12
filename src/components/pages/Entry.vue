@@ -20,5 +20,6 @@ export default {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
+  min-height: 80vh;
 }
 </style>

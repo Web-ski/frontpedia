@@ -28,5 +28,8 @@ export default {
 <style>
 .start-info__container {
   min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 </style>

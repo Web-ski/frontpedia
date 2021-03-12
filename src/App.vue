@@ -2,15 +2,27 @@
   <div id="app">
     <Header />
     <router-view></router-view>
+    <Footer :footer="footerText"/>
   </div>
 </template>
 
 <script>
 import Header from "./components/structures/Header";
+import Footer from "./components/structures/Footer";
+import {
+  aboutAuthor
+} from "./const/about";
+
 export default {
   name: "App",
+  data() {
+    return {
+      footerText: aboutAuthor
+    }
+  },
   components: {
     Header,
+    Footer
   },
   created() {
     this.$store.dispatch("getAllPosts", "./mockupContent.json");

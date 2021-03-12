@@ -19,7 +19,6 @@ import {
   aboutHeading,
   aboutText,
   infoText1,
-  aboutAuthor
 } from "../../const/about";
 
 export default {
@@ -29,7 +28,6 @@ export default {
       title: aboutHeading,
       mainText: aboutText,
       text1: infoText1,
-      text3: aboutAuthor
     };
   },
   components: {

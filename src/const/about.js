@@ -6,4 +6,4 @@ export const aboutText =
 export const infoText1 = "haseł";
 
 export const aboutAuthor =
-  "Autorem projektu jest Paweł Nieczuja-Ostrowski, front-end developer, UX/UI designer.";
+  "2021, by Paweł Nieczuja-Ostrowski";
