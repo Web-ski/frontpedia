@@ -5,7 +5,14 @@
     "image": "html5.png",
     "intro": "HTML to kod służący do tworzenia struktury strony internetowej i jej zawartości.",
     "body": [
-      "HTML, czyli hipertekstowy język znaczników (HyperText Markup Language), jest kodem za pomocą którego tworzy się strukturę strony internetowej i jej zawartości. HTML powstał w latach 1990-1995, przechodząc w tym czasie szereg poprawek i rozszerzeń. Dalszym jego opracowywaniem zajęła się międzynarodowa społeczność W3C (The World Wide Web Consortium). W 1995 r. dokonano rozszerzenia HTML, znane jako HTML 3.0, zastąpione jednak już w 1997 r. rozszerzeniem HTML 3.2, a niedługo po nim HTML4. W 2004 r. rozpoczęły się prace nad kolejnym, aktualnym wydaniem HTML, znanym jako HTML5. W 2019 r. WHATWG i W3C podpisały porozumienie o współpracy nad wspólną wersją HTML.",
+      [
+        {
+          "strong": "HTML"
+        },
+        {
+          "text": ", czyli hipertekstowy język znaczników (HyperText Markup Language), jest kodem za pomocą którego tworzy się strukturę strony internetowej i jej zawartości. HTML powstał w latach 1990-1995, przechodząc w tym czasie szereg poprawek i rozszerzeń. Dalszym jego opracowywaniem zajęła się międzynarodowa społeczność W3C (The World Wide Web Consortium). W 1995 r. dokonano rozszerzenia HTML, znane jako HTML 3.0, zastąpione jednak już w 1997 r. rozszerzeniem HTML 3.2, a niedługo po nim HTML4. W 2004 r. rozpoczęły się prace nad kolejnym, aktualnym wydaniem HTML, znanym jako HTML5. W 2019 r. WHATWG i W3C podpisały porozumienie o współpracy nad wspólną wersją HTML."
+        }
+      ],
       "HTML nie jest językiem programowania; składa się ze znaczników (tagów), służących do opakowania różnych części treści, tak aby działały w określony sposób.",
       "Aktualny standart HTML jest określany przez społeczność WHATWG."
     ],

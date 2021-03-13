@@ -4,8 +4,8 @@
     <section class="entry-main">
       <article class="entry-body">
         <Paragraph
-          v-for="paragraph in record.body"
-          :key="paragraph"
+          v-for="(paragraph, index) in record.body"
+          :key="index"
           :text="paragraph"
         />
         <h4 class="entry-sources__title">Źródła:</h4>
