@@ -30,8 +30,8 @@
       </aside>
     </section>
     <div class="entry-links">
-      <EntryLink v-for="link in record.linkEntries" :key="link" :link="link">
-        {{ link }}
+      <EntryLink v-for="tag in record.tags" :key="tag" :link="tag">
+        {{ tag }}
       </EntryLink>
     </div>
   </div>

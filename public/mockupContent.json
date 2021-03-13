@@ -26,7 +26,7 @@
         "text": "Strona Mozilli z informacjami o HTML"
       }
     ],
-    "linkEntries": [
+    "tags": [
       "WHATWG",
       "W3C"
     ]
@@ -60,7 +60,7 @@
         "text": "Polska wersja rozdziałów książki: Pro Git."
       }
     ],
-    "linkEntries": [
+    "tags": [
       "GitHub",
       "GitLab",
       "Bitbucket"
@@ -95,7 +95,7 @@
         "text": "GitHub Pours Energies into Enterprise – Raises $100 Million From Power VC Andreessen Horowitz, z dn. 9 lipca 2012, 'Tech Crunch'."
       }
     ],
-    "linkEntries": [
+    "tags": [
       "Git",
       "GitLab",
       "Bitbucket"
@@ -126,7 +126,7 @@
         "text": "A. Konrad, No Office, No Problem: Software Unicorn Gitlab's CEO Warns You're Probably Doing Remote Work Wrong, z dn. 11 listopada 2020, 'Forbes'."
       }
     ],
-    "linkEntries": [
+    "tags": [
       "Git",
       "GitHub",
       "Bitbucket"
@@ -156,7 +156,7 @@
         "text": "Strona Atlassian"
       }
     ],
-    "linkEntries": [
+    "tags": [
       "Git",
       "GitHub",
       "GitLab"
@@ -197,7 +197,7 @@
         "text": "Strona WHATWG"
       }
     ],
-    "linkEntries": [
+    "tags": [
       "HTML",
       "W3C"
     ]
@@ -223,7 +223,7 @@
         "text": "Strona WHATWG"
       }
     ],
-    "linkEntries": [
+    "tags": [
       "HTML",
       "WHATWG"
     ]
