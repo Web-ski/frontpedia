@@ -10,7 +10,27 @@
           "strong": "HTML"
         },
         {
-          "text": ", czyli hipertekstowy język znaczników (HyperText Markup Language), jest kodem za pomocą którego tworzy się strukturę strony internetowej i jej zawartości. HTML powstał w latach 1990-1995, przechodząc w tym czasie szereg poprawek i rozszerzeń. Dalszym jego opracowywaniem zajęła się międzynarodowa społeczność W3C (The World Wide Web Consortium). W 1995 r. dokonano rozszerzenia HTML, znane jako HTML 3.0, zastąpione jednak już w 1997 r. rozszerzeniem HTML 3.2, a niedługo po nim HTML4. W 2004 r. rozpoczęły się prace nad kolejnym, aktualnym wydaniem HTML, znanym jako HTML5. W 2019 r. WHATWG i W3C podpisały porozumienie o współpracy nad wspólną wersją HTML."
+          "text": ", czyli hipertekstowy język znaczników ("
+        },
+        {
+          "strong": "HyperText Markup Language"
+        },
+        {
+          "text": "), jest kodem za pomocą którego tworzy się strukturę strony internetowej i jej zawartości. HTML powstał w latach 1990-1995, przechodząc w tym czasie szereg poprawek i rozszerzeń. Dalszym jego opracowywaniem zajęła się międzynarodowa społeczność "
+        },
+        {
+          "link": "W3C (The World Wide Web Consortium)",
+          "href": "W3C"
+        },
+        {
+          "text": ". W 1995 r. dokonano rozszerzenia HTML, znane jako HTML 3.0, zastąpione jednak już w 1997 r. rozszerzeniem HTML 3.2, a niedługo po nim HTML4. W 2004 r. rozpoczęły się prace nad kolejnym, aktualnym wydaniem HTML, znanym jako HTML5. W 2019 r. "
+        },
+        {
+          "link": "WHATWG",
+          "href": "WHATWG"
+        },
+        {
+          "text": " i W3C podpisały porozumienie o współpracy nad wspólną wersją HTML."
         }
       ],
       "HTML nie jest językiem programowania; składa się ze znaczników (tagów), służących do opakowania różnych części treści, tak aby działały w określony sposób.",
@@ -44,7 +64,14 @@
     "image": "git.png",
     "intro": "Git to system kontroli wersji, zaprojektowany do obsługi projektów.",
     "body": [
-      "Git to darmowy, rozproszony system kontroli wersji o otwartym kodzie źródłowym, zaprojektowany do obsługi projektów. Powstał w 2005 r. z potrzeby sprawnego zarządzania jądrem Linuksa. Jego głównym twórcą był Linus Torvalds, twórca Linuksa."
+      [
+        {
+          "strong": "Git"
+        },
+        {
+          "text": " to darmowy, rozproszony system kontroli wersji o otwartym kodzie źródłowym, zaprojektowany do obsługi projektów. Powstał w 2005 r. z potrzeby sprawnego zarządzania jądrem Linuksa. Jego głównym twórcą był Linus Torvalds, twórca Linuksa."
+        }
+      ]
     ],
     "aside": [
       {
@@ -79,7 +106,14 @@
     "image": "github-black.png",
     "intro": "GitHub to platforma do zdalnego zarządania projektami.",
     "body": [
-      "GitHub to platforma do zdalnego zarządania projektami. Powstała ona w 2008 r., a jednym z jej założycieli był Tom Preston-Werner. Dotychczas powstało na niej ponad 100 milionów repozytoriów, użytkowanych przez ponad 56 milionów programistów i ponad 3 miliony organizacji (dane z marca 2021 r.).",
+      [
+        {
+          "strong": "GitHub"
+        },
+        {
+          "text": " to platforma do zdalnego zarządania projektami. Powstała ona w 2008 r., a jednym z jej założycieli był Tom Preston-Werner. Dotychczas powstało na niej ponad 100 milionów repozytoriów, użytkowanych przez ponad 56 milionów programistów i ponad 3 miliony organizacji (dane z marca 2021 r.)."
+        }
+      ],
       "Usługa GitHub Pages umożliwia publikację witryny internetowej bezpośrednio z repozytorium. Platforma GitHub w wersji podstawowej jest darmowa. "
     ],
     "aside": [
@@ -114,7 +148,14 @@
     "image": "gitlab.png",
     "intro": "GitLab to platforma do zdalnego zarządania projektami.",
     "body": [
-      "GitLab to platforma do zdalnego zarządania projektami. Powstała w 2011 r., jako projekt open source, w celu pomocy zespołom we współpracy przy tworzeniu oprogramowania. Użytkowana jest przez 30 milionów zarejestrowanych użytkowników i ponad 100 tysięcy organizacji (dane z marca 2021 r.).",
+      [
+        {
+          "strong": "GitLab"
+        },
+        {
+          "text": " to platforma do zdalnego zarządania projektami. Powstała w 2011 r., jako projekt open source, w celu pomocy zespołom we współpracy przy tworzeniu oprogramowania. Użytkowana jest przez 30 milionów zarejestrowanych użytkowników i ponad 100 tysięcy organizacji (dane z marca 2021 r.)."
+        }
+      ],
       "Twórcami GitLaba byli Dmitriy Zaporozhets i Valery Sizov. Nazwa została zainspirowana GitWebem i innymi produktami git'a. W 2020 r. zespół GitLaba liczył ponad 1200 osób pochodzących z 65 krajów."
     ],
     "aside": [
@@ -145,7 +186,14 @@
     "image": "bitbucket.png",
     "intro": "Bitbucket to platforma do zdalnego zarządania projektami.",
     "body": [
-      "Bitbucket to platforma do zdalnego zarządania projektami. Została stworzona w 2010 r. przez firmę Atlassian. Użytkowana jest przez ponad 10 milionów programistów i ponad milion zespołów (dane z marca 2021 r.)."
+      [
+        {
+          "strong": "Bitbucket"
+        },
+        {
+          "text": " to platforma do zdalnego zarządania projektami. Została stworzona w 2010 r. przez firmę Atlassian. Użytkowana jest przez ponad 10 milionów programistów i ponad milion zespołów (dane z marca 2021 r.)."
+        }
+      ]
     ],
     "aside": [
       {
@@ -175,7 +223,14 @@
     "image": "Bootstrap.png",
     "intro": "Bootstrap to popularna biblioteka zawierająca narzędzia do stylowania stron i aplikacji. ",
     "body": [
-      "Bootstrap to popularna biblioteka zawierająca narzędzia do stylowania stron i aplikacji. "
+      [
+        {
+          "strong": "Bootstrap"
+        },
+        {
+          "text": " to popularna biblioteka zawierająca narzędzia do stylowania stron i aplikacji. "
+        }
+      ]
     ],
     "aside": [
       {
@@ -190,7 +245,26 @@
     "image": "",
     "intro": "Społeczność - The Web Hypertext Application Technology Working Group.",
     "body": [
-      "WHATWG, czyli The Web Hypertext Application Technology Working Group, jest społecznością skupioną wokół rozwoju sieci poprzez jej standaryzację. Została utworzona w 2004 r. przez programistów z Apple, Mozilla Foundation i Opera Software, w celu rozwoju HTML. Od 2017 r. rozwój WHATWG wspierany jest przez Apple, Google, Microsoft i Mozillę."
+      [
+        {
+          "strong": "WHATWG"
+        },
+        {
+          "text": ", czyli "
+        },
+        {
+          "strong": "The Web Hypertext Application Technology Working Group"
+        },
+        {
+          "text": ", jest społecznością skupioną wokół rozwoju sieci poprzez jej standaryzację. Została utworzona w 2004 r. przez programistów z Apple, Mozilla Foundation i Opera Software, w celu rozwoju "
+        },
+        {
+          "link": "HTML"
+        },
+        {
+          "text": ". Od 2017 r. rozwój WHATWG wspierany jest przez Apple, Google, Microsoft i Mozillę."
+        }
+      ]
     ],
     "aside": [
       {
@@ -215,7 +289,20 @@
     "image": "W3C.png",
     "intro": "Społeczność - The Web Hypertext Application Technology Working Group.",
     "body": [
-      "W3C, czyli The World Wide Web Consortium, to międzynarodowa społeczność, która opracowuje otwarte standardy mające zapewnienić długotrwały rozwój sieci.",
+      [
+        {
+          "strong": "W3C"
+        },
+        {
+          "text": ", czyli "
+        },
+        {
+          "strong": "The World Wide Web Consortium"
+        },
+        {
+          "text": ", to międzynarodowa społeczność, która opracowuje otwarte standardy mające zapewnienić długotrwały rozwój sieci."
+        }
+      ],
       "W3C zostało założone w 1994 r. przez Timothy'ego Berners-Lee – brytyjskiego programistę, pioniera usług WWW. Siedziba konsorcjum znajduje się obecnie w Massachusetts."
     ],
     "aside": [

@@ -3,6 +3,9 @@
     <template v-if="typeof text === 'object'">
       <template v-for="item in text">
         <strong v-if="item.strong" :key="item.strong">{{ item.strong }}</strong>
+        <router-link v-if="item.link" :to="item.href" :key="item.link">{{
+          item.link
+        }}</router-link>
         <template v-if="item.text">{{ item.text }}</template>
       </template>
     </template>
