@@ -3,9 +3,16 @@
     <template v-if="typeof text === 'object'">
       <template v-for="item in text">
         <strong v-if="item.strong" :key="item.strong">{{ item.strong }}</strong>
-        <router-link v-if="item.link" :to="item.href" :key="item.link">{{
-          item.link
-        }}</router-link>
+        <router-link
+          class="paragraph__link"
+          v-if="item.link"
+          :to="item.href"
+          :key="item.link"
+        >
+          <span class="paragraph__button" v-on:click="setEntry(item.href)">
+            {{ item.link }}
+          </span>
+        </router-link>
         <template v-if="item.text">{{ item.text }}</template>
       </template>
     </template>
@@ -16,6 +23,8 @@
 </template>
 
 <script>
+import store from "../../api/store";
+
 export default {
   name: "Paragraph",
   props: {
@@ -23,8 +32,9 @@ export default {
     small: Boolean,
   },
   methods: {
-    hej: function (item) {
-      console.log(item);
+    setEntry: (name) => {
+      let pageName = name.toLowerCase();
+      return store.dispatch("getSingleEntry", pageName);
     },
   },
 };
@@ -40,6 +50,24 @@ export default {
 .paragraph--small {
   font-size: 1rem;
   line-height: 140%;
+}
+
+.paragraph__link {
+  text-decoration: none;
+}
+
+.paragraph__button {
+  font-size: inherit;
+  color: royalblue;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  transition: 0.2;
+}
+
+.paragraph__button:hover {
+  text-decoration: underline;
 }
 
 @media screen and (min-width: 670px) {

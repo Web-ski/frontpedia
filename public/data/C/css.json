@@ -1,0 +1,66 @@
+{
+    "id": 9,
+    "title": "CSS",
+    "image": "css3.png",
+    "body": [
+        [
+            {
+                "strong": "CSS"
+            },
+            {
+                "text": ", czyli kaskadowe arkusze stylów ("
+            },
+            {
+                "strong": "Cascading Style Sheets"
+            },
+            {
+                "text": "), są kodem służącym do nadawania wyglądu stronie internetowej (czcionki, koloru, rozmiaru elementów, itp.). Opisują, jak elementy "
+            },
+            {
+                "link": "HTML",
+                "href": "HTML"
+            },
+            {
+                "text": " powinny wygladać. W 1994 r. powstała pierwsza robocza wersja kaskadowych arkuszy stylów HTML, której autorem był Håkon Wium Lie. Wstępna propozycja CSS została zaprezentowana na konferencji webowej w Chicago w listopadzie 1994 r. W grudniu 1996 r. "
+            },
+            {
+                "link": "W3C",
+                "href": "W3C"
+            },
+            {
+                "text": " oficjalnie zarekomenodwało CSS (pierwsze wydanie, org. level). Drugie wydanie, CSS2, zostało zarekomendowane w maju 1998 r."
+            }
+        ],
+        "Wraz z wydaniem rekomendacji CSS2 zaczęły się prace nad trzecim wydaniem, CSS3, którego pierwsze szkice zostały opublikowane w 1999 r. W przeciwieństwie do poprzedniego, to wydanie, zostało podzielone na kilka oddzielnych dokumentów („modułów”), z których każdy dodaje nowe możliwości lub rozszerza funkcje, zachowując kompatybilność wsteczną.",
+        "Aktualny standart CSS jest określany przez W3C."
+    ],
+    "aside": [
+        {
+            "link": "https://www.w3.org/Style/CSS/",
+            "text": "https://www.w3.org/Style/CSS/"
+        },
+        "Aktualna wersja: CSS3"
+    ],
+    "sources": [
+        {
+            "link": "https://www.w3.org/Style/CSS/",
+            "text": "Strona W3C dla CSS"
+        },
+        {
+            "link": "https://www.w3.org/Style/CSS20/history.html",
+            "text": "Historia CSS na stronie W3C"
+        },
+        {
+            "link": "https://www.w3schools.com/css/",
+            "text": "Tutorial CSS na stronie w3schools"
+        },
+        {
+            "link": "https://developer.mozilla.org/pl/docs/Learn/Getting_started_with_the_web/CSS_basics",
+            "text": "Strona Mozilli z informacjami o CSS"
+        }
+    ],
+    "tags": [
+        "W3C",
+        "HTML"
+    ]
+}

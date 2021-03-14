@@ -46,5 +46,11 @@
     "title": "W3C",
     "image": "W3C.png",
     "intro": "Społeczność - The Web Hypertext Application Technology Working Group."
+  },
+  {
+    "id": 9,
+    "title": "CSS",
+    "image": "css3.png",
+    "intro": "CSS to kod służący do nadawania wyglądu stronie internetowej."
   }
 ]
