@@ -1,0 +1,43 @@
+{
+    "id": 7,
+    "title": "WHATWG",
+    "image": "",
+    "body": [
+        [
+            {
+                "strong": "WHATWG"
+            },
+            {
+                "text": ", czyli "
+            },
+            {
+                "strong": "The Web Hypertext Application Technology Working Group"
+            },
+            {
+                "text": ", jest społecznością skupioną wokół rozwoju sieci poprzez jej standaryzację. Została utworzona w 2004 r. przez programistów z Apple, Mozilla Foundation i Opera Software, w celu rozwoju "
+            },
+            {
+                "link": "HTML"
+            },
+            {
+                "text": ". Od 2017 r. rozwój WHATWG wspierany jest przez Apple, Google, Microsoft i Mozillę."
+            }
+        ]
+    ],
+    "aside": [
+        {
+            "link": "https://whatwg.org/",
+            "text": "https://whatwg.org/"
+        }
+    ],
+    "sources": [
+        {
+            "link": "https://whatwg.org/",
+            "text": "Strona WHATWG"
+        }
+    ],
+    "tags": [
+        "HTML",
+        "W3C"
+    ]
+}

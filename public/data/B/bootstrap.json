@@ -1,0 +1,21 @@
+{
+    "id": 6,
+    "title": "Bootstrap",
+    "image": "Bootstrap.png",
+    "body": [
+        [
+            {
+                "strong": "Bootstrap"
+            },
+            {
+                "text": " to popularna biblioteka zawierająca narzędzia do stylowania stron i aplikacji. "
+            }
+        ]
+    ],
+    "aside": [
+        {
+            "link": "https://getbootstrap.com/",
+            "text": "https://getbootstrap.com/"
+        }
+    ]
+}

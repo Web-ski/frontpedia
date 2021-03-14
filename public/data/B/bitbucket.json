@@ -1,0 +1,36 @@
+{
+    "id": 5,
+    "title": "Bitbucket",
+    "image": "bitbucket.png",
+    "body": [
+        [
+            {
+                "strong": "Bitbucket"
+            },
+            {
+                "text": " to platforma do zdalnego zarządania projektami. Została stworzona w 2010 r. przez firmę Atlassian. Użytkowana jest przez ponad 10 milionów programistów i ponad milion zespołów (dane z marca 2021 r.)."
+            }
+        ]
+    ],
+    "aside": [
+        {
+            "link": "https://bitbucket.org/",
+            "text": "https://bitbucket.org/"
+        }
+    ],
+    "sources": [
+        {
+            "link": "https://bitbucket.org/",
+            "text": "Strona Bitbucketa"
+        },
+        {
+            "link": "https://www.atlassian.com/",
+            "text": "Strona Atlassian"
+        }
+    ],
+    "tags": [
+        "Git",
+        "GitHub",
+        "GitLab"
+    ]
+}

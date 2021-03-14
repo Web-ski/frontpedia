@@ -1,0 +1,58 @@
+{
+    "id": 1,
+    "title": "HTML",
+    "image": "html5.png",
+    "body": [
+        [
+            {
+                "strong": "HTML"
+            },
+            {
+                "text": ", czyli hipertekstowy język znaczników ("
+            },
+            {
+                "strong": "HyperText Markup Language"
+            },
+            {
+                "text": "), jest kodem za pomocą którego tworzy się strukturę strony internetowej i jej zawartości. HTML powstał w latach 1990-1995, przechodząc w tym czasie szereg poprawek i rozszerzeń. Dalszym jego opracowywaniem zajęła się międzynarodowa społeczność "
+            },
+            {
+                "link": "W3C (The World Wide Web Consortium)",
+                "href": "W3C"
+            },
+            {
+                "text": ". W 1995 r. dokonano rozszerzenia HTML, znane jako HTML 3.0, zastąpione jednak już w 1997 r. rozszerzeniem HTML 3.2, a niedługo po nim HTML4. W 2004 r. rozpoczęły się prace nad kolejnym, aktualnym wydaniem HTML, znanym jako HTML5. W 2019 r. "
+            },
+            {
+                "link": "WHATWG",
+                "href": "WHATWG"
+            },
+            {
+                "text": " i W3C podpisały porozumienie o współpracy nad wspólną wersją HTML."
+            }
+        ],
+        "HTML nie jest językiem programowania; składa się ze znaczników (tagów), służących do opakowania różnych części treści, tak aby działały w określony sposób.",
+        "Aktualny standart HTML jest określany przez społeczność WHATWG."
+    ],
+    "aside": [
+        {
+            "link": "https://html.spec.whatwg.org",
+            "text": "https://html.spec.whatwg.org"
+        },
+        "Aktualna wersja: HTML5"
+    ],
+    "sources": [
+        {
+            "link": "https://html.spec.whatwg.org/",
+            "text": "Strona WHATWG ze standardem HTML"
+        },
+        {
+            "link": "https://developer.mozilla.org/pl/docs/Learn/Getting_started_with_the_web/HTML_basics#czym_w%C5%82a%C5%9Bciwie_jest_html",
+            "text": "Strona Mozilli z informacjami o HTML"
+        }
+    ],
+    "tags": [
+        "WHATWG",
+        "W3C"
+    ]
+}

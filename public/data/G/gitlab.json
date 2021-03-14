@@ -1,0 +1,37 @@
+{
+    "id": 4,
+    "title": "GitLab",
+    "image": "gitlab.png",
+    "body": [
+        [
+            {
+                "strong": "GitLab"
+            },
+            {
+                "text": " to platforma do zdalnego zarządania projektami. Powstała w 2011 r., jako projekt open source, w celu pomocy zespołom we współpracy przy tworzeniu oprogramowania. Użytkowana jest przez 30 milionów zarejestrowanych użytkowników i ponad 100 tysięcy organizacji (dane z marca 2021 r.)."
+            }
+        ],
+        "Twórcami GitLaba byli Dmitriy Zaporozhets i Valery Sizov. Nazwa została zainspirowana GitWebem i innymi produktami git'a. W 2020 r. zespół GitLaba liczył ponad 1200 osób pochodzących z 65 krajów."
+    ],
+    "aside": [
+        {
+            "link": "https://gitlab.com/",
+            "text": "https://gitlab.com/"
+        }
+    ],
+    "sources": [
+        {
+            "link": "https://gitlab.com/",
+            "text": "Strona GitLaba"
+        },
+        {
+            "link": "https://www.forbes.com/sites/alexkonrad/2020/11/11/no-office-no-problem-software-unicorn-gitlabs-ceo-warns-youre-probably-doing-remote-work-wrong/?sh=4850ddeb4c8b",
+            "text": "A. Konrad, No Office, No Problem: Software Unicorn Gitlab's CEO Warns You're Probably Doing Remote Work Wrong, z dn. 11 listopada 2020, 'Forbes'."
+        }
+    ],
+    "tags": [
+        "Git",
+        "GitHub",
+        "Bitbucket"
+    ]
+}

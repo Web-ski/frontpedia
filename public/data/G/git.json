@@ -1,0 +1,41 @@
+{
+    "id": 2,
+    "title": "Git",
+    "image": "git.png",
+    "body": [
+        [
+            {
+                "strong": "Git"
+            },
+            {
+                "text": " to darmowy, rozproszony system kontroli wersji o otwartym kodzie źródłowym, zaprojektowany do obsługi projektów. Powstał w 2005 r. z potrzeby sprawnego zarządzania jądrem Linuksa. Jego głównym twórcą był Linus Torvalds, twórca Linuksa."
+            }
+        ]
+    ],
+    "aside": [
+        {
+            "link": "https://git-scm.com/",
+            "text": "https://git-scm.com/"
+        },
+        "Wersja: 2.30.1 (March 2021)"
+    ],
+    "sources": [
+        {
+            "link": "https://git-scm.com/",
+            "text": "Strona Gita"
+        },
+        {
+            "link": "https://git-scm.com/book/en/v2",
+            "text": "Książka: Scott Chacon and Ben Straub, Pro Git, published by Apress, 2th ed., 2014."
+        },
+        {
+            "link": "https://git-scm.com/book/pl/v2",
+            "text": "Polska wersja rozdziałów książki: Pro Git."
+        }
+    ],
+    "tags": [
+        "GitHub",
+        "GitLab",
+        "Bitbucket"
+    ]
+}

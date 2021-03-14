@@ -1,0 +1,38 @@
+{
+    "id": 8,
+    "title": "W3C",
+    "image": "W3C.png",
+    "body": [
+        [
+            {
+                "strong": "W3C"
+            },
+            {
+                "text": ", czyli "
+            },
+            {
+                "strong": "The World Wide Web Consortium"
+            },
+            {
+                "text": ", to międzynarodowa społeczność, która opracowuje otwarte standardy mające zapewnienić długotrwały rozwój sieci."
+            }
+        ],
+        "W3C zostało założone w 1994 r. przez Timothy'ego Berners-Lee – brytyjskiego programistę, pioniera usług WWW. Siedziba konsorcjum znajduje się obecnie w Massachusetts."
+    ],
+    "aside": [
+        {
+            "link": "https://www.w3.org/",
+            "text": "https://www.w3.org/"
+        }
+    ],
+    "sources": [
+        {
+            "link": "https://whatwg.org/",
+            "text": "Strona WHATWG"
+        }
+    ],
+    "tags": [
+        "HTML",
+        "WHATWG"
+    ]
+}
