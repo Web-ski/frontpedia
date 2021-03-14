@@ -1,10 +1,20 @@
 <template>
-  <button class="button-more">Więcej</button>
+  <button class="button-more" v-on:click="setEntry(name)">Więcej</button>
 </template>
 
 <script>
+import store from "../../api/store";
 export default {
   name: "ButtonMore",
+  props: {
+    name: String,
+  },
+  methods: {
+    setEntry: (name) => {
+      let pageName = name.toLowerCase();
+      return store.dispatch("getSingleEntry", pageName);
+    },
+  },
 };
 </script>
 

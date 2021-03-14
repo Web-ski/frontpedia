@@ -11,7 +11,7 @@
     </div>
     <div class="card-footer">
       <router-link class="card-link" :to="title">
-        <ButtonMore />
+        <ButtonMore :name="title" />
       </router-link>
     </div>
   </article>

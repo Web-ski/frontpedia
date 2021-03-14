@@ -9,6 +9,7 @@ const store = new Vuex.Store({
     isLoading: false,
     allRecords: [],
     search: "",
+    singleEntry: "",
   },
   getters: {
     getRecords({ allRecords, search }) {
@@ -34,6 +35,9 @@ const store = new Vuex.Store({
     SET_SEARCH(state, value) {
       state.search = value;
     },
+    SET_ENTRY(state, data) {
+      state.singleEntry = data;
+    },
   },
   actions: {
     getAllPosts({ commit }, url) {
@@ -50,6 +54,19 @@ const store = new Vuex.Store({
     },
     setSearch({ commit }, payload) {
       commit("SET_SEARCH", payload);
+    },
+    getSingleEntry({ commit }, payload) {
+      let firstLetter = payload.slice("")[0];
+      let url = `/data/${firstLetter}/${payload}.json`;
+      commit("LOADING_STATUS", true);
+
+      return axios // REGARD TO FEEDBACK: move action calling the getting of data from mutations to actions
+        .get(url)
+        .then((response) => {
+          commit("SET_ENTRY", response.data);
+          commit("LOADING_STATUS", false);
+        })
+        .catch((error) => console.log(error)); // REGARD TO FEEDBACK: add handle error
     },
   },
   modules: {},

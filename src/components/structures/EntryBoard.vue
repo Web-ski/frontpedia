@@ -53,17 +53,10 @@ export default {
   data() {
     return { url: "/images/" };
   },
-  props: {
-    entry: String,
-  },
   computed: {
     record() {
-      let vm = this;
-      let choosenRecord = store.state.allRecords.filter(
-        (item) => item.title === vm.entry && item
-      );
-      console.log(choosenRecord);
-      return choosenRecord[0];
+      let choosenRecord = store.state.singleEntry;
+      return choosenRecord;
     },
   },
 };

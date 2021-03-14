@@ -1,6 +1,6 @@
 <template>
   <main id="entry">
-    <EntryBoard :entry="$route.params.id" />
+    <EntryBoard />
   </main>
 </template>
 
