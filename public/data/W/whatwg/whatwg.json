@@ -1,7 +1,7 @@
 {
     "id": 7,
     "title": "WHATWG",
-    "image": "",
+    "image": "W3C.png",
     "body": [
         [
             {
@@ -17,7 +17,8 @@
                 "text": ", jest społecznością skupioną wokół rozwoju sieci poprzez jej standaryzację. Została utworzona w 2004 r. przez programistów z Apple, Mozilla Foundation i Opera Software, w celu rozwoju "
             },
             {
-                "link": "HTML"
+                "link": "HTML",
+                "href": "HTML"
             },
             {
                 "text": ". Od 2017 r. rozwój WHATWG wspierany jest przez Apple, Google, Microsoft i Mozillę."
