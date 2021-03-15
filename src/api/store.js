@@ -56,7 +56,7 @@ const store = new Vuex.Store({
       commit("SET_SEARCH", payload);
     },
     getSingleEntry({ commit }, payload) {
-      let firstLetter = payload.slice("")[0];
+      let firstLetter = payload.slice("")[0].toUpperCase();
       let url = `/data/${firstLetter}/${payload}/${payload}.json`;
       commit("LOADING_STATUS", true);
 
