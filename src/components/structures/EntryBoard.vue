@@ -24,7 +24,9 @@
         />
         <div v-for="item in record.aside" :key="item.link.toString()">
           <template v-if="typeof item === 'object'">
-            <a class="entry-aside__link" :href="item.link">{{ item.text }}</a>
+            <a class="entry-aside__link" :href="item.link" target="_blank">{{
+              item.text
+            }}</a>
           </template>
           <template v-else>
             <Paragraph small :text="item" />

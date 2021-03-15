@@ -1,6 +1,8 @@
 <template>
   <li class="entry-source">
-    <a class="entry-source" :href="source.link">{{ source.text }}</a>
+    <a class="entry-source" :href="source.link" target="_blank">{{
+      source.text
+    }}</a>
   </li>
 </template>
 
