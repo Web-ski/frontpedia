@@ -18,7 +18,12 @@
         </ul>
       </article>
       <aside class="entry-aside">
-        <img class="entry-aside__image" :src="url + record.image" />
+        <img
+          class="entry-aside__image"
+          :src="`${url}/${getFirstLetter(record.title)}/${record.title}/${
+            record.image
+          }`"
+        />
         <div v-for="item in record.aside" :key="item.link.toString()">
           <template v-if="typeof item === 'object'">
             <a class="entry-aside__link" :href="item.link">{{ item.text }}</a>
@@ -51,12 +56,18 @@ export default {
     Paragraph,
   },
   data() {
-    return { url: "/images/" };
+    return { url: "/data" };
   },
   computed: {
     record() {
       let choosenRecord = store.state.singleEntry;
       return choosenRecord;
+    },
+  },
+  methods: {
+    getFirstLetter: (title) => {
+      let firstLetter = title.slice("")[0].toUpperCase();
+      return firstLetter;
     },
   },
 };

@@ -2,7 +2,10 @@
   <article class="card">
     <div class="card-header">
       <h3 class="card-title">{{ title }}</h3>
-      <img class="card-image" :src="url + image" />
+      <img
+        class="card-image"
+        :src="`${url}/${getFirstLetter(title)}/${title}/${image}`"
+      />
     </div>
     <div class="card-body">
       <p class="card-text">
@@ -22,7 +25,7 @@ import ButtonMore from "../elements/ButtonMore";
 export default {
   name: "Card",
   data() {
-    return { url: "/images/" };
+    return { url: "/data" };
   },
   components: {
     ButtonMore,
@@ -31,6 +34,12 @@ export default {
     title: String,
     image: String,
     intro: String,
+  },
+  methods: {
+    getFirstLetter: (title) => {
+      let firstLetter = title.slice("")[0].toUpperCase();
+      return firstLetter;
+    },
   },
 };
 </script>

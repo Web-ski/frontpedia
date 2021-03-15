@@ -57,7 +57,7 @@ const store = new Vuex.Store({
     },
     getSingleEntry({ commit }, payload) {
       let firstLetter = payload.slice("")[0];
-      let url = `/data/${firstLetter}/${payload}.json`;
+      let url = `/data/${firstLetter}/${payload}/${payload}.json`;
       commit("LOADING_STATUS", true);
 
       return axios // REGARD TO FEEDBACK: move action calling the getting of data from mutations to actions
