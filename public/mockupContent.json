@@ -1,56 +1,72 @@
 [
   {
     "id": 1,
+    "category": "",
     "title": "HTML",
     "image": "html5.png",
     "intro": "HTML to kod służący do tworzenia struktury strony internetowej i jej zawartości."
   },
   {
     "id": 2,
+    "category": "",
     "title": "Git",
     "image": "git.png",
     "intro": "Git to system kontroli wersji, zaprojektowany do obsługi projektów."
   },
   {
     "id": 3,
+    "category": "",
     "title": "GitHub",
     "image": "github-black.png",
     "intro": "GitHub to platforma do zdalnego zarządania projektami."
   },
   {
     "id": 4,
+    "category": "",
     "title": "GitLab",
     "image": "gitlab.png",
     "intro": "GitLab to platforma do zdalnego zarządania projektami."
   },
   {
     "id": 5,
+    "category": "",
     "title": "Bitbucket",
     "image": "bitbucket.png",
     "intro": "Bitbucket to platforma do zdalnego zarządania projektami."
   },
   {
     "id": 6,
+    "category": "",
     "title": "Bootstrap",
     "image": "Bootstrap.png",
     "intro": "Bootstrap to popularna biblioteka zawierająca narzędzia do stylowania stron i aplikacji. "
   },
   {
     "id": 7,
+    "category": "",
     "title": "WHATWG",
     "image": "",
     "intro": "Społeczność - The Web Hypertext Application Technology Working Group."
   },
   {
     "id": 8,
+    "category": "",
     "title": "W3C",
     "image": "W3C.png",
     "intro": "Społeczność - The Web Hypertext Application Technology Working Group."
   },
   {
     "id": 9,
+    "category": "",
     "title": "CSS",
     "image": "css3.png",
     "intro": "CSS to kod służący do nadawania wyglądu stronie internetowej."
+  },
+  {
+    "id": 10,
+    "category": "termin",
+    "title": "Camel case",
+    "image": "",
+    "intro": "Konwencja zapisu nazw stosowana w kodzie."
   }
 ]

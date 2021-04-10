@@ -41,16 +41,15 @@ const store = new Vuex.Store({
   },
   actions: {
     getAllPosts({ commit }, url) {
-      // REGARD TO FEEDBACK: update naming convention in actions
       commit("LOADING_STATUS", true);
 
-      return axios // REGARD TO FEEDBACK: move action calling the getting of data from mutations to actions
+      return axios
         .get(url)
         .then((response) => {
           commit("SET_ALL_DATA", response.data);
           commit("LOADING_STATUS", false);
         })
-        .catch((error) => console.log(error)); // REGARD TO FEEDBACK: add handle error
+        .catch((error) => console.log(error));
     },
     setSearch({ commit }, payload) {
       commit("SET_SEARCH", payload);
@@ -60,13 +59,13 @@ const store = new Vuex.Store({
       let url = `/data/${firstLetter}/${payload}/${payload}.json`;
       commit("LOADING_STATUS", true);
 
-      return axios // REGARD TO FEEDBACK: move action calling the getting of data from mutations to actions
+      return axios
         .get(url)
         .then((response) => {
           commit("SET_ENTRY", response.data);
           commit("LOADING_STATUS", false);
         })
-        .catch((error) => console.log(error)); // REGARD TO FEEDBACK: add handle error
+        .catch((error) => console.log(error));
     },
   },
   modules: {},

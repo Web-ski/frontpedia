@@ -1,0 +1,33 @@
+{
+  "id": 10,
+  "title": "Camel case",
+  "image": "",
+  "body": [
+    [
+      {
+        "strong": "Camel case"
+      },
+      {
+        "text": " jest konwencją zapisu nazw ("
+      },
+      {
+        "link": "notacją",
+        "href": "notacja"
+      },
+      {
+        "text": "), polegającą na tym, że wszystkie słowa danej nazwy są złączone ze sobą, ale każde kolejne słowo zaczyna się z wielkiej litery, np.: "
+      },
+      {
+        "strong": "camelCaseStyle"
+      },
+      {
+        "text": "."
+      }
+    ]
+  ],
+  "tags": [
+    "pascal case",
+    "snake case",
+    "kebab case"
+  ]
+}
